@@ -1,0 +1,1268 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AFLAGS_tee_smc-arm.o	armtz/Makefile	/^AFLAGS_tee_smc-arm.o := -Wa,-march=armv7-a$(secext)$/;"	m
+ALLOC_ALIGN	armtz/tee_tz_drv.c	42;"	d	file:
+CAPABLE	armtz/tee_tz_drv.c	44;"	d	file:
+CMD_CONFIG_PADSEL	core/tee_fp.c	116;"	d	file:
+CMD_DISABLE	core/tee_fp.c	115;"	d	file:
+CMD_READ_CHIPID	core/tee_fp.c	114;"	d	file:
+DEV	armtz/tee_tz_drv.c	33;"	d	file:
+EXTRA_CFLAGS	Makefile	/^export EXTRA_CFLAGS := -DTKCORE_KDBG$/;"	m
+EXTRA_CFLAGS	Makefile	/^export EXTRA_CFLAGS :=$/;"	m
+HANDLE_DB_INITIALIZER	armtz/handle.h	9;"	d
+HANDLE_DB_INITIAL_MAX_PTRS	armtz/handle.c	11;"	d	file:
+HANDLE_H	armtz/handle.h	2;"	d
+INMSG	core/tee_session.c	23;"	d	file:
+INMSG	core/tee_session.c	26;"	d	file:
+INMSG	core/tee_shm.c	15;"	d	file:
+INMSG	core/tee_shm.c	21;"	d	file:
+ISSWAPI_CLOSE_TA	armtz/tee_tz_op.h	/^	ISSWAPI_CLOSE_TA = 0x11000002,$/;"	e	enum:t_issw_service_id
+ISSWAPI_DISABLE_L2CC_MUTEX	armtz/tee_tz_op.h	/^	ISSWAPI_DISABLE_L2CC_MUTEX = 0x20000001,$/;"	e	enum:t_issw_service_id
+ISSWAPI_ENABLE_L2CC_MUTEX	armtz/tee_tz_op.h	/^	ISSWAPI_ENABLE_L2CC_MUTEX = 0x20000000,$/;"	e	enum:t_issw_service_id
+ISSWAPI_EXECUTE_TA	armtz/tee_tz_op.h	/^	ISSWAPI_EXECUTE_TA = 0x11000001,$/;"	e	enum:t_issw_service_id
+ISSWAPI_EXTERNAL_CODE_CHECK	armtz/tee_tz_op.h	/^	ISSWAPI_EXTERNAL_CODE_CHECK = 0x10000001,$/;"	e	enum:t_issw_service_id
+ISSWAPI_FLUSH_BOOT_CODE	armtz/tee_tz_op.h	/^	ISSWAPI_FLUSH_BOOT_CODE = 0x11000003,$/;"	e	enum:t_issw_service_id
+ISSWAPI_GET_L2CC_MUTEX	armtz/tee_tz_op.h	/^	ISSWAPI_GET_L2CC_MUTEX = 0x20000002,$/;"	e	enum:t_issw_service_id
+ISSWAPI_GET_RT_FLAGS	armtz/tee_tz_op.h	/^	ISSWAPI_GET_RT_FLAGS = 0x11000007,$/;"	e	enum:t_issw_service_id
+ISSWAPI_GET_SHM_CACHED	armtz/tee_tz_op.h	/^	ISSWAPI_GET_SHM_CACHED = 0x11000026,$/;"	e	enum:t_issw_service_id
+ISSWAPI_GET_SHM_SIZE	armtz/tee_tz_op.h	/^	ISSWAPI_GET_SHM_SIZE = 0x11000025,$/;"	e	enum:t_issw_service_id
+ISSWAPI_GET_SHM_START	armtz/tee_tz_op.h	/^	ISSWAPI_GET_SHM_START = 0x11000024,$/;"	e	enum:t_issw_service_id
+ISSWAPI_ISSW_EXECUTE_SERV	armtz/tee_tz_op.h	/^	ISSWAPI_ISSW_EXECUTE_SERV = 6,$/;"	e	enum:t_issw_service_id
+ISSWAPI_ISSW_REIMPORT_PUB_KEYS	armtz/tee_tz_op.h	/^	ISSWAPI_ISSW_REIMPORT_PUB_KEYS = 0x10000003,$/;"	e	enum:t_issw_service_id
+ISSWAPI_LOAD_TEE	armtz/tee_tz_op.h	/^	ISSWAPI_LOAD_TEE = 0x20000004,$/;"	e	enum:t_issw_service_id
+ISSWAPI_PROT_APPL_MSG_SEND	armtz/tee_tz_op.h	/^	ISSWAPI_PROT_APPL_MSG_SEND = 0x10000000,$/;"	e	enum:t_issw_service_id
+ISSWAPI_READ_CP15_ACTLR	armtz/tee_tz_op.h	/^	ISSWAPI_READ_CP15_ACTLR = 0x10000008,$/;"	e	enum:t_issw_service_id
+ISSWAPI_READ_CP15_DIAGR	armtz/tee_tz_op.h	/^	ISSWAPI_READ_CP15_DIAGR = 0x1000000A,$/;"	e	enum:t_issw_service_id
+ISSWAPI_READ_CP15_SCTLR	armtz/tee_tz_op.h	/^	ISSWAPI_READ_CP15_SCTLR = 0x10000006,$/;"	e	enum:t_issw_service_id
+ISSWAPI_REGISTER_DEF_SHM	armtz/tee_tz_op.h	/^	ISSWAPI_REGISTER_DEF_SHM = 0x11000020,$/;"	e	enum:t_issw_service_id
+ISSWAPI_REGISTER_IRQFWD	armtz/tee_tz_op.h	/^	ISSWAPI_REGISTER_IRQFWD = 0x11000022,$/;"	e	enum:t_issw_service_id
+ISSWAPI_REGISTER_RPC	armtz/tee_tz_op.h	/^	ISSWAPI_REGISTER_RPC = 0x1100000b,	\/* this is NOT a GP TEE API ! *\/$/;"	e	enum:t_issw_service_id
+ISSWAPI_SECURE_LOAD	armtz/tee_tz_op.h	/^	ISSWAPI_SECURE_LOAD = 0x10000002,$/;"	e	enum:t_issw_service_id
+ISSWAPI_SET_L2CC_MUTEX	armtz/tee_tz_op.h	/^	ISSWAPI_SET_L2CC_MUTEX = 0x20000003,$/;"	e	enum:t_issw_service_id
+ISSWAPI_SET_SEC_DDR	armtz/tee_tz_op.h	/^	ISSWAPI_SET_SEC_DDR = 0x1100000c,	\/* this is NOT a GP TEE API ! *\/$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEEC_CANCEL_COMMAND	armtz/tee_tz_op.h	/^	ISSWAPI_TEEC_CANCEL_COMMAND = 0x1100000d,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEEC_CLOSE_SESSION	armtz/tee_tz_op.h	/^	ISSWAPI_TEEC_CLOSE_SESSION = 0x11000009,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEEC_INVOKE_COMMAND	armtz/tee_tz_op.h	/^	ISSWAPI_TEEC_INVOKE_COMMAND = 0x1100000a,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEEC_OPEN_SESSION	armtz/tee_tz_op.h	/^	ISSWAPI_TEEC_OPEN_SESSION = 0x11000008,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEEC_REGISTER_MEMORY	armtz/tee_tz_op.h	/^	ISSWAPI_TEEC_REGISTER_MEMORY = 0x1100000e,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEEC_UNREGISTER_MEMORY	armtz/tee_tz_op.h	/^	ISSWAPI_TEEC_UNREGISTER_MEMORY = 0x1100000f,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_CRASH_CPU	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_CRASH_CPU = 0x11000011,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_DEINIT_CPU	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_DEINIT_CPU = 0x11000010,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_FLUSH_CACHE	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_FLUSH_CACHE = 0x11000017,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_GET_CORE_STATUS	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_GET_CORE_STATUS = 0x11000016,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_GET_CORE_TRACE_LEVEL	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_GET_CORE_TRACE_LEVEL = 0x11000013,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_GET_TA_TRACE_LEVEL	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_GET_TA_TRACE_LEVEL = 0x11000015,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_SET_CORE_TRACE_LEVEL	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_SET_CORE_TRACE_LEVEL = 0x11000012,$/;"	e	enum:t_issw_service_id
+ISSWAPI_TEE_SET_TA_TRACE_LEVEL	armtz/tee_tz_op.h	/^	ISSWAPI_TEE_SET_TA_TRACE_LEVEL = 0x11000014,$/;"	e	enum:t_issw_service_id
+ISSWAPI_UNREGISTER_DEF_SHM	armtz/tee_tz_op.h	/^	ISSWAPI_UNREGISTER_DEF_SHM = 0x11000021,$/;"	e	enum:t_issw_service_id
+ISSWAPI_UNREGISTER_IRQFWD	armtz/tee_tz_op.h	/^	ISSWAPI_UNREGISTER_IRQFWD = 0x11000023,$/;"	e	enum:t_issw_service_id
+ISSWAPI_VERIFY_HASH	armtz/tee_tz_op.h	/^	ISSWAPI_VERIFY_HASH = 0x11000006,$/;"	e	enum:t_issw_service_id
+ISSWAPI_VERIFY_SIGNED_HEADER	armtz/tee_tz_op.h	/^	ISSWAPI_VERIFY_SIGNED_HEADER = 0x11000005,$/;"	e	enum:t_issw_service_id
+ISSWAPI_WRITE_CP15_ACTLR	armtz/tee_tz_op.h	/^	ISSWAPI_WRITE_CP15_ACTLR = 0x10000007,$/;"	e	enum:t_issw_service_id
+ISSWAPI_WRITE_CP15_DIAGR	armtz/tee_tz_op.h	/^	ISSWAPI_WRITE_CP15_DIAGR = 0x10000009,$/;"	e	enum:t_issw_service_id
+ISSWAPI_WRITE_CP15_SCTLR	armtz/tee_tz_op.h	/^	ISSWAPI_WRITE_CP15_SCTLR = 0x10000005,$/;"	e	enum:t_issw_service_id
+ISSWAPI_WRITE_L2CC	armtz/tee_tz_op.h	/^	ISSWAPI_WRITE_L2CC = 0x10000004,$/;"	e	enum:t_issw_service_id
+LINEBUF_SIZE	core/tee_procfs.c	750;"	d	file:
+LOG_AREA_PAGE_COUNT	core/tee_procfs.c	32;"	d	file:
+LOG_AREA_PAGE_ORDER	core/tee_procfs.c	31;"	d	file:
+LOG_AREA_SIZE	core/tee_procfs.c	33;"	d	file:
+M	armtz/Makefile	/^M ?= $(srctree)\/drivers\/misc\/mediatek\/tkcore$/;"	m
+M	core/Makefile	/^M ?=$(srctree)\/drivers\/misc\/mediatek\/tkcore$/;"	m
+MT_MEMORY_RW	core/tee_core.c	70;"	d	file:
+NOT_TUI_CANCEL_EVENT	core/tee_tui.h	29;"	d
+NOT_TUI_NONE	core/tee_tui.h	27;"	d
+NTRACES	core/tee_procfs.c	405;"	d	file:
+OUTMSG	core/tee_session.c	24;"	d	file:
+OUTMSG	core/tee_session.c	27;"	d	file:
+OUTMSG	core/tee_shm.c	16;"	d	file:
+OUTMSG	core/tee_shm.c	22;"	d	file:
+OUTMSGX	core/tee_shm.c	17;"	d	file:
+OUTMSGX	core/tee_shm.c	23;"	d	file:
+PROC_DBG	core/tee_procfs.c	38;"	d	file:
+PROT_NORMAL	core/tee_core.c	50;"	d	file:
+SEC_ROM_DEFAULT	armtz/tee_tz_drv.c	40;"	d	file:
+SEC_ROM_IRQ_ENABLE_MASK	armtz/tee_tz_drv.c	39;"	d	file:
+SEC_ROM_NO_FLAG_MASK	armtz/tee_tz_drv.c	38;"	d	file:
+SENSOR_DETECTOR_TA_UUID	core/tee_fp.c	/^static TEEC_UUID SENSOR_DETECTOR_TA_UUID = { 0x966d3f7c, 0x04ef, 0x1beb, \\$/;"	v	file:
+SMC_PARAM_X0_OFFS	armtz/tee_smc-arm64.S	/^#define SMC_PARAM_X0_OFFS	0$/;"	d
+SMC_PARAM_X2_OFFS	armtz/tee_smc-arm64.S	/^#define SMC_PARAM_X2_OFFS	16$/;"	d
+SMC_PARAM_X4_OFFS	armtz/tee_smc-arm64.S	/^#define SMC_PARAM_X4_OFFS	32$/;"	d
+SMC_PARAM_X6_OFFS	armtz/tee_smc-arm64.S	/^#define SMC_PARAM_X6_OFFS	48$/;"	d
+SSAPI_ISSW_IMPORT_SERV	armtz/tee_tz_op.h	/^	SSAPI_ISSW_IMPORT_SERV = 3,$/;"	e	enum:t_issw_service_id
+SSAPI_POST_SPEEDUP_INIT_SERV	armtz/tee_tz_op.h	/^	SSAPI_POST_SPEEDUP_INIT_SERV = 2,$/;"	e	enum:t_issw_service_id
+SSAPI_PRE_INIT_SERV	armtz/tee_tz_op.h	/^	SSAPI_PRE_INIT_SERV = 1,$/;"	e	enum:t_issw_service_id
+SSAPI_RET_FROM_INT_SERV	armtz/tee_tz_op.h	/^	SSAPI_RET_FROM_INT_SERV = 4,$/;"	e	enum:t_issw_service_id
+SSAPI_RET_FROM_RPC_SERV	armtz/tee_tz_op.h	/^	SSAPI_RET_FROM_RPC_SERV = 5,$/;"	e	enum:t_issw_service_id
+T6SMC_RETURN_RPC_CLK_CMD	include/arm_common/teesmc.h	673;"	d
+T6SMC_RETURN_RPC_CLK_CMD2	include/arm_common/teesmc.h	676;"	d
+T6SMC_RPC_CLK_CMD	include/arm_common/teesmc.h	672;"	d
+T6SMC_RPC_CLK_CMD2	include/arm_common/teesmc.h	675;"	d
+TAG	core/tee_clkmgr.c	13;"	d	file:
+TEEC_AllocateSharedMemory	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_AllocateSharedMemory);$/;"	v
+TEEC_AllocateSharedMemory	core/tee_kernel_api.c	/^TEEC_Result TEEC_AllocateSharedMemory(TEEC_Context *context,$/;"	f
+TEEC_CONFIG_PAYLOAD_REF_COUNT	include/linux/tee_client_api.h	13;"	d
+TEEC_CONFIG_SHAREDMEM_MAX_SIZE	include/linux/tee_client_api.h	20;"	d
+TEEC_CloseSession	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_CloseSession);$/;"	v
+TEEC_CloseSession	core/tee_kernel_api.c	/^void TEEC_CloseSession(TEEC_Session *session)$/;"	f
+TEEC_Context	include/linux/tee_client_api.h	/^} TEEC_Context;$/;"	t	typeref:struct:__anon10
+TEEC_ERROR_ACCESS_CONFLICT	include/linux/tee_client_api.h	158;"	d
+TEEC_ERROR_ACCESS_DENIED	include/linux/tee_client_api.h	156;"	d
+TEEC_ERROR_BAD_FORMAT	include/linux/tee_client_api.h	160;"	d
+TEEC_ERROR_BAD_PARAMETERS	include/linux/tee_client_api.h	161;"	d
+TEEC_ERROR_BAD_STATE	include/linux/tee_client_api.h	162;"	d
+TEEC_ERROR_BUSY	include/linux/tee_client_api.h	168;"	d
+TEEC_ERROR_CANCEL	include/linux/tee_client_api.h	157;"	d
+TEEC_ERROR_COMMUNICATION	include/linux/tee_client_api.h	169;"	d
+TEEC_ERROR_EXCESS_DATA	include/linux/tee_client_api.h	159;"	d
+TEEC_ERROR_GENERIC	include/linux/tee_client_api.h	155;"	d
+TEEC_ERROR_ITEM_NOT_FOUND	include/linux/tee_client_api.h	163;"	d
+TEEC_ERROR_NOT_IMPLEMENTED	include/linux/tee_client_api.h	164;"	d
+TEEC_ERROR_NOT_SUPPORTED	include/linux/tee_client_api.h	165;"	d
+TEEC_ERROR_NO_DATA	include/linux/tee_client_api.h	166;"	d
+TEEC_ERROR_OUT_OF_MEMORY	include/linux/tee_client_api.h	167;"	d
+TEEC_ERROR_SECURITY	include/linux/tee_client_api.h	170;"	d
+TEEC_ERROR_SHORT_BUFFER	include/linux/tee_client_api.h	171;"	d
+TEEC_ERROR_TARGET_DEAD	include/linux/tee_client_api.h	172;"	d
+TEEC_FinalizeContext	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_FinalizeContext);$/;"	v
+TEEC_FinalizeContext	core/tee_kernel_api.c	/^void TEEC_FinalizeContext(TEEC_Context *context)$/;"	f
+TEEC_InitializeContext	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_InitializeContext);$/;"	v
+TEEC_InitializeContext	core/tee_kernel_api.c	/^TEEC_Result TEEC_InitializeContext(const char *name, TEEC_Context *context)$/;"	f
+TEEC_InvokeCommand	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_InvokeCommand);$/;"	v
+TEEC_InvokeCommand	core/tee_kernel_api.c	/^TEEC_Result TEEC_InvokeCommand(TEEC_Session *session,$/;"	f
+TEEC_LOGIN_APPLICATION	include/linux/tee_client_api.h	207;"	d
+TEEC_LOGIN_GROUP	include/linux/tee_client_api.h	206;"	d
+TEEC_LOGIN_PUBLIC	include/linux/tee_client_api.h	204;"	d
+TEEC_LOGIN_USER	include/linux/tee_client_api.h	205;"	d
+TEEC_MEMREF_PARTIAL_INOUT	include/linux/tee_client_api.h	89;"	d
+TEEC_MEMREF_PARTIAL_INPUT	include/linux/tee_client_api.h	87;"	d
+TEEC_MEMREF_PARTIAL_OUTPUT	include/linux/tee_client_api.h	88;"	d
+TEEC_MEMREF_PERMANENT	include/linux/tee_client_api.h	91;"	d
+TEEC_MEMREF_TEMP_INOUT	include/linux/tee_client_api.h	85;"	d
+TEEC_MEMREF_TEMP_INPUT	include/linux/tee_client_api.h	83;"	d
+TEEC_MEMREF_TEMP_OUTPUT	include/linux/tee_client_api.h	84;"	d
+TEEC_MEMREF_WHOLE	include/linux/tee_client_api.h	86;"	d
+TEEC_MEM_DMABUF	include/linux/tee_client_api.h	112;"	d
+TEEC_MEM_INPUT	include/linux/tee_client_api.h	110;"	d
+TEEC_MEM_KAPI	include/linux/tee_client_api.h	113;"	d
+TEEC_MEM_NONSECURE	include/linux/tee_client_api.h	120;"	d
+TEEC_MEM_OUTPUT	include/linux/tee_client_api.h	111;"	d
+TEEC_NONE	include/linux/tee_client_api.h	79;"	d
+TEEC_ORIGIN_API	include/linux/tee_client_api.h	187;"	d
+TEEC_ORIGIN_COMMS	include/linux/tee_client_api.h	188;"	d
+TEEC_ORIGIN_TEE	include/linux/tee_client_api.h	189;"	d
+TEEC_ORIGIN_TRUSTED_APP	include/linux/tee_client_api.h	190;"	d
+TEEC_OpenSession	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_OpenSession);$/;"	v
+TEEC_OpenSession	core/tee_kernel_api.c	/^TEEC_Result TEEC_OpenSession(TEEC_Context *context,$/;"	f
+TEEC_Operation	include/linux/tee_client_api.h	/^} TEEC_Operation;$/;"	t	typeref:struct:__anon27
+TEEC_PARAM_TYPES	include/linux/tee_client_api.h	217;"	d
+TEEC_PARAM_TYPE_GET	include/linux/tee_client_api.h	226;"	d
+TEEC_Parameter	include/linux/tee_client_api.h	/^} TEEC_Parameter;$/;"	t	typeref:union:__anon25
+TEEC_RPC_FAIL	core/tee_supp_com.h	/^	TEEC_RPC_FAIL$/;"	e	enum:teec_rpc_result
+TEEC_RPC_OK	core/tee_supp_com.h	/^	TEEC_RPC_OK,$/;"	e	enum:teec_rpc_result
+TEEC_RegisterSharedMemory	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_RegisterSharedMemory);$/;"	v
+TEEC_RegisterSharedMemory	core/tee_kernel_api.c	/^TEEC_Result TEEC_RegisterSharedMemory(TEEC_Context *context,$/;"	f
+TEEC_RegisteredMemoryReference	include/linux/tee_client_api.h	/^} TEEC_RegisteredMemoryReference;$/;"	t	typeref:struct:__anon20
+TEEC_ReleaseSharedMemory	core/tee_kernel_api.c	/^EXPORT_SYMBOL(TEEC_ReleaseSharedMemory);$/;"	v
+TEEC_ReleaseSharedMemory	core/tee_kernel_api.c	/^void TEEC_ReleaseSharedMemory(TEEC_SharedMemory *shared_memory)$/;"	f
+TEEC_Result	include/linux/tee_client_api.h	/^typedef uint32_t TEEC_Result;$/;"	t
+TEEC_STATUS_MSG_SIZE	armtz/tee_tz_op.h	251;"	d
+TEEC_SUCCESS	include/linux/tee_client_api.h	154;"	d
+TEEC_Session	include/linux/tee_client_api.h	/^} TEEC_Session;$/;"	t	typeref:struct:__anon26
+TEEC_SharedMemory	include/linux/tee_client_api.h	/^} TEEC_SharedMemory;$/;"	t	typeref:struct:__anon13
+TEEC_TUI_CMD_NONE	include/linux/tee_ioc.h	99;"	d
+TEEC_TUI_CMD_START_ACTIVITY	include/linux/tee_ioc.h	100;"	d
+TEEC_TUI_CMD_STOP_ACTIVITY	include/linux/tee_ioc.h	101;"	d
+TEEC_TempMemoryReference	include/linux/tee_client_api.h	/^} TEEC_TempMemoryReference;$/;"	t	typeref:struct:__anon17
+TEEC_UUID	include/linux/tee_client_api.h	/^} TEEC_UUID;$/;"	t	typeref:struct:__anon12
+TEEC_VALUE_INOUT	include/linux/tee_client_api.h	82;"	d
+TEEC_VALUE_INPUT	include/linux/tee_client_api.h	80;"	d
+TEEC_VALUE_OUTPUT	include/linux/tee_client_api.h	81;"	d
+TEEC_Value	include/linux/tee_client_api.h	/^} TEEC_Value;$/;"	t	typeref:struct:__anon24
+TEED_VERSION_SIZE	core/tee_procfs.c	645;"	d	file:
+TEESMC32_CALLS_COUNT	include/arm_common/teesmc.h	343;"	d
+TEESMC32_CALLS_REVISION	include/arm_common/teesmc.h	375;"	d
+TEESMC32_CALLS_UID	include/arm_common/teesmc.h	362;"	d
+TEESMC32_CALL_GET_OS_REVISION	include/arm_common/teesmc.h	405;"	d
+TEESMC32_CALL_GET_OS_UUID	include/arm_common/teesmc.h	390;"	d
+TEESMC32_CALL_HANDLE_FIQ	include/arm_common/teesmc.h	537;"	d
+TEESMC32_CALL_RETURN_FROM_RPC	include/arm_common/teesmc.h	498;"	d
+TEESMC32_CALL_WITH_ARG	include/arm_common/teesmc.h	450;"	d
+TEESMC32_FASTCALL_RETURN_FROM_RPC	include/arm_common/teesmc.h	502;"	d
+TEESMC32_FASTCALL_WITH_ARG	include/arm_common/teesmc.h	454;"	d
+TEESMC32_FUNCID_CALLS_COUNT	include/arm_common/teesmc.h	342;"	d
+TEESMC32_FUNCID_CALLS_REVISION	include/arm_common/teesmc.h	374;"	d
+TEESMC32_FUNCID_CALLS_UID	include/arm_common/teesmc.h	361;"	d
+TEESMC32_GET_ARG_SIZE	include/arm_common/teesmc.h	220;"	d
+TEESMC32_GET_PARAMS	include/arm_common/teesmc.h	209;"	d
+TEESMC32_ST_FASTCALL_GET_LOGM_CONFIG	include/arm_common/teesmc_st.h	57;"	d
+TEESMC32_ST_FASTCALL_GET_SHM_CONFIG	include/arm_common/teesmc_st.h	29;"	d
+TEESMC32_ST_FASTCALL_L2CC_MUTEX	include/arm_common/teesmc_st.h	99;"	d
+TEESMC64_CALL_RETURN_FROM_RPC	include/arm_common/teesmc.h	512;"	d
+TEESMC64_CALL_WITH_ARG	include/arm_common/teesmc.h	464;"	d
+TEESMC64_FASTCALL_RETURN_FROM_RPC	include/arm_common/teesmc.h	516;"	d
+TEESMC64_FASTCALL_WITH_ARG	include/arm_common/teesmc.h	468;"	d
+TEESMC64_GET_ARG_SIZE	include/arm_common/teesmc.h	273;"	d
+TEESMC64_GET_PARAMS	include/arm_common/teesmc.h	262;"	d
+TEESMC_32	include/arm_common/teesmc.h	308;"	d
+TEESMC_64	include/arm_common/teesmc.h	309;"	d
+TEESMC_ATTR_CACHE_DEFAULT	include/arm_common/teesmc.h	70;"	d
+TEESMC_ATTR_CACHE_I_NONCACHE	include/arm_common/teesmc.h	61;"	d
+TEESMC_ATTR_CACHE_I_WRITE_BACK	include/arm_common/teesmc.h	63;"	d
+TEESMC_ATTR_CACHE_I_WRITE_THR	include/arm_common/teesmc.h	62;"	d
+TEESMC_ATTR_CACHE_MASK	include/arm_common/teesmc.h	74;"	d
+TEESMC_ATTR_CACHE_NONCACHE	include/arm_common/teesmc.h	68;"	d
+TEESMC_ATTR_CACHE_O_NONCACHE	include/arm_common/teesmc.h	64;"	d
+TEESMC_ATTR_CACHE_O_WRITE_BACK	include/arm_common/teesmc.h	66;"	d
+TEESMC_ATTR_CACHE_O_WRITE_THR	include/arm_common/teesmc.h	65;"	d
+TEESMC_ATTR_CACHE_SHIFT	include/arm_common/teesmc.h	73;"	d
+TEESMC_ATTR_META	include/arm_common/teesmc.h	55;"	d
+TEESMC_ATTR_TYPE_MASK	include/arm_common/teesmc.h	46;"	d
+TEESMC_ATTR_TYPE_MEMREF_INOUT	include/arm_common/teesmc.h	44;"	d
+TEESMC_ATTR_TYPE_MEMREF_INPUT	include/arm_common/teesmc.h	42;"	d
+TEESMC_ATTR_TYPE_MEMREF_OUTPUT	include/arm_common/teesmc.h	43;"	d
+TEESMC_ATTR_TYPE_NONE	include/arm_common/teesmc.h	38;"	d
+TEESMC_ATTR_TYPE_VALUE_INOUT	include/arm_common/teesmc.h	41;"	d
+TEESMC_ATTR_TYPE_VALUE_INPUT	include/arm_common/teesmc.h	39;"	d
+TEESMC_ATTR_TYPE_VALUE_OUTPUT	include/arm_common/teesmc.h	40;"	d
+TEESMC_CALL_VAL	include/arm_common/teesmc.h	324;"	d
+TEESMC_CMD_CANCEL	include/arm_common/teesmc.h	79;"	d
+TEESMC_CMD_CLOSE_SESSION	include/arm_common/teesmc.h	78;"	d
+TEESMC_CMD_INVOKE_COMMAND	include/arm_common/teesmc.h	77;"	d
+TEESMC_CMD_OPEN_SESSION	include/arm_common/teesmc.h	76;"	d
+TEESMC_FAST_CALL	include/arm_common/teesmc.h	310;"	d
+TEESMC_FUNCID_CALL_HANDLE_FIQ	include/arm_common/teesmc.h	536;"	d
+TEESMC_FUNCID_CALL_WITH_ARG	include/arm_common/teesmc.h	449;"	d
+TEESMC_FUNCID_GET_OS_REVISION	include/arm_common/teesmc.h	404;"	d
+TEESMC_FUNCID_GET_OS_UUID	include/arm_common/teesmc.h	389;"	d
+TEESMC_FUNCID_RETURN_FROM_RPC	include/arm_common/teesmc.h	497;"	d
+TEESMC_FUNC_MASK	include/arm_common/teesmc.h	316;"	d
+TEESMC_FUNC_NUM	include/arm_common/teesmc.h	320;"	d
+TEESMC_H	include/arm_common/teesmc.h	2;"	d
+TEESMC_IS_64	include/arm_common/teesmc.h	319;"	d
+TEESMC_IS_FAST_CALL	include/arm_common/teesmc.h	318;"	d
+TEESMC_OWNER_ARCH	include/arm_common/teesmc.h	329;"	d
+TEESMC_OWNER_CPU	include/arm_common/teesmc.h	330;"	d
+TEESMC_OWNER_MASK	include/arm_common/teesmc.h	313;"	d
+TEESMC_OWNER_NUM	include/arm_common/teesmc.h	321;"	d
+TEESMC_OWNER_OEM	include/arm_common/teesmc.h	332;"	d
+TEESMC_OWNER_SHIFT	include/arm_common/teesmc.h	314;"	d
+TEESMC_OWNER_SIP	include/arm_common/teesmc.h	331;"	d
+TEESMC_OWNER_STANDARD	include/arm_common/teesmc.h	333;"	d
+TEESMC_OWNER_TRUSTED_APP	include/arm_common/teesmc.h	334;"	d
+TEESMC_OWNER_TRUSTED_OS	include/arm_common/teesmc.h	335;"	d
+TEESMC_OWNER_TRUSTED_OS_API	include/arm_common/teesmc.h	337;"	d
+TEESMC_RETURN_EBADADDR	include/arm_common/teesmc.h	685;"	d
+TEESMC_RETURN_EBADCMD	include/arm_common/teesmc.h	686;"	d
+TEESMC_RETURN_ERESUME	include/arm_common/teesmc.h	684;"	d
+TEESMC_RETURN_ETHREAD_LIMIT	include/arm_common/teesmc.h	683;"	d
+TEESMC_RETURN_GET_RPC_FUNC	include/arm_common/teesmc.h	545;"	d
+TEESMC_RETURN_IS_RPC	include/arm_common/teesmc.h	687;"	d
+TEESMC_RETURN_OK	include/arm_common/teesmc.h	682;"	d
+TEESMC_RETURN_RPC_ALLOC_ARG	include/arm_common/teesmc.h	567;"	d
+TEESMC_RETURN_RPC_ALLOC_PAYLOAD	include/arm_common/teesmc.h	589;"	d
+TEESMC_RETURN_RPC_CMD	include/arm_common/teesmc.h	670;"	d
+TEESMC_RETURN_RPC_FREE_ARG	include/arm_common/teesmc.h	608;"	d
+TEESMC_RETURN_RPC_FREE_PAYLOAD	include/arm_common/teesmc.h	626;"	d
+TEESMC_RETURN_RPC_FUNC_MASK	include/arm_common/teesmc.h	543;"	d
+TEESMC_RETURN_RPC_IRQ	include/arm_common/teesmc.h	643;"	d
+TEESMC_RETURN_RPC_PREFIX	include/arm_common/teesmc.h	542;"	d
+TEESMC_RETURN_RPC_PREFIX_MASK	include/arm_common/teesmc.h	541;"	d
+TEESMC_RETURN_ST_RPC_ALLOC_PAYLOAD	include/arm_common/teesmc_st.h	122;"	d
+TEESMC_RETURN_ST_RPC_FREE_PAYLOAD	include/arm_common/teesmc_st.h	141;"	d
+TEESMC_RETURN_UNKNOWN_FUNCTION	include/arm_common/teesmc.h	679;"	d
+TEESMC_REVISION_MAJOR	include/arm_common/teesmc.h	372;"	d
+TEESMC_REVISION_MINOR	include/arm_common/teesmc.h	373;"	d
+TEESMC_RPC_FUNC_ALLOC_ARG	include/arm_common/teesmc.h	566;"	d
+TEESMC_RPC_FUNC_ALLOC_PAYLOAD	include/arm_common/teesmc.h	588;"	d
+TEESMC_RPC_FUNC_CMD	include/arm_common/teesmc.h	669;"	d
+TEESMC_RPC_FUNC_FREE_ARG	include/arm_common/teesmc.h	607;"	d
+TEESMC_RPC_FUNC_FREE_PAYLOAD	include/arm_common/teesmc.h	625;"	d
+TEESMC_RPC_FUNC_IRQ	include/arm_common/teesmc.h	642;"	d
+TEESMC_RPC_REQUEST_IRQ	include/arm_common/teesmc.h	693;"	d
+TEESMC_RPC_VAL	include/arm_common/teesmc.h	547;"	d
+TEESMC_STD_CALL	include/arm_common/teesmc.h	311;"	d
+TEESMC_ST_FUNCID_GET_LOGM_CONFIG	include/arm_common/teesmc_st.h	56;"	d
+TEESMC_ST_FUNCID_GET_SHM_CONFIG	include/arm_common/teesmc_st.h	28;"	d
+TEESMC_ST_FUNCID_L2CC_MUTEX	include/arm_common/teesmc_st.h	98;"	d
+TEESMC_ST_H	include/arm_common/teesmc_st.h	2;"	d
+TEESMC_ST_L2CC_MUTEX_DISABLE	include/arm_common/teesmc_st.h	97;"	d
+TEESMC_ST_L2CC_MUTEX_ENABLE	include/arm_common/teesmc_st.h	96;"	d
+TEESMC_ST_L2CC_MUTEX_GET_ADDR	include/arm_common/teesmc_st.h	94;"	d
+TEESMC_ST_L2CC_MUTEX_SET_ADDR	include/arm_common/teesmc_st.h	95;"	d
+TEESMC_ST_RETURN_NOTAVAIL	include/arm_common/teesmc_st.h	4;"	d
+TEESMC_ST_RPC_FUNC_ALLOC_PAYLOAD	include/arm_common/teesmc_st.h	121;"	d
+TEESMC_ST_RPC_FUNC_FREE_PAYLOAD	include/arm_common/teesmc_st.h	140;"	d
+TEESMC_UID32_R3	include/arm_common/teesmc.h	359;"	d
+TEESMC_UID64_R3	include/arm_common/teesmc.h	360;"	d
+TEESMC_UID_R0	include/arm_common/teesmc.h	356;"	d
+TEESMC_UID_R1	include/arm_common/teesmc.h	357;"	d
+TEESMC_UID_R2	include/arm_common/teesmc.h	358;"	d
+TEESMC_UUID_LEN	include/arm_common/teesmc.h	277;"	d
+TEE_ALLOC_SHM_IOC	include/linux/tee_ioc.h	85;"	d
+TEE_ALLOC_SHM_PERM_IOC	include/linux/tee_ioc.h	86;"	d
+TEE_CLIENT_API_H	include/linux/tee_client_api.h	2;"	d
+TEE_CLKMGR_ENABLE_CLK	core/tee_clkmgr.c	42;"	d	file:
+TEE_CLKMGR_H	include/linux/tee_clkmgr.h	2;"	d
+TEE_CLKMGR_NOT_LEGACY	core/tee_clkmgr.c	41;"	d	file:
+TEE_CLKMGR_TOKEN	core/tee_clkmgr.c	43;"	d	file:
+TEE_CLKMGR_TYPE_I2C	core/tee_clkmgr_priv.h	/^    TEE_CLKMGR_TYPE_I2C,$/;"	e	enum:tee_clkmgr_type
+TEE_CLKMGR_TYPE_I2C_DMA	core/tee_clkmgr_priv.h	/^    TEE_CLKMGR_TYPE_I2C_DMA$/;"	e	enum:tee_clkmgr_type
+TEE_CLKMGR_TYPE_SPI	core/tee_clkmgr_priv.h	/^    TEE_CLKMGR_TYPE_SPI,$/;"	e	enum:tee_clkmgr_type
+TEE_CLKMGR_TYPE_UNUSED	core/tee_clkmgr_priv.h	/^    TEE_CLKMGR_TYPE_UNUSED = 0,$/;"	e	enum:tee_clkmgr_type
+TEE_CLK_IOC	include/linux/tee_ioc.h	94;"	d
+TEE_CONF_FW_NOT_CAPABLE	include/linux/tee_core.h	33;"	d
+TEE_CONF_TEST_MODE	include/linux/tee_core.h	32;"	d
+TEE_CRASHED	include/linux/tee_core.h	/^	TEE_CRASHED = 4,$/;"	e	enum:tee_state
+TEE_CRASH_MAGIC_NO	core/tee_procfs.h	10;"	d
+TEE_FP_H	include/linux/tee_fp.h	2;"	d
+TEE_FP_PRIV_H	core/tee_clkmgr_priv.h	2;"	d
+TEE_FP_PRIV_H	core/tee_fp_priv.h	2;"	d
+TEE_GET_FD_FOR_RPC_SHM_IOC	include/linux/tee_ioc.h	87;"	d
+TEE_INSTALL_SYSTEM_TRUSTED_APP	include/linux/tee_ioc.h	96;"	d
+TEE_INVOKE_COMMAND_IOC	include/linux/tee_ioc.h	83;"	d
+TEE_LAST	include/linux/tee_core.h	/^	TEE_LAST = 5,$/;"	e	enum:tee_state
+TEE_LOG_CTL_BUF_SIZE	core/tee_procfs.h	6;"	d
+TEE_LOG_IRQ	core/tee_procfs.h	4;"	d
+TEE_LOG_SIGNAL_THRESHOLD_SIZE	core/tee_procfs.h	8;"	d
+TEE_LOG_TIMEOUT_MS	core/tee_procfs.c	57;"	d	file:
+TEE_LOG_TIMEOUT_USER_MS	core/tee_procfs.c	59;"	d	file:
+TEE_MAX_CLIENT_NAME	include/linux/tee_core.h	69;"	d
+TEE_MAX_TEE_DEV_NAME	include/linux/tee_core.h	44;"	d
+TEE_MEM_H	armtz/tee_mem.h	2;"	d
+TEE_MUTEX_WAIT_H	core/tee_mutex_wait.h	2;"	d
+TEE_OFFLINE	include/linux/tee_core.h	/^	TEE_OFFLINE = 0,$/;"	e	enum:tee_state
+TEE_ONLINE	include/linux/tee_core.h	/^	TEE_ONLINE = 1,$/;"	e	enum:tee_state
+TEE_OPEN_SESSION_IOC	include/linux/tee_ioc.h	82;"	d
+TEE_PM_SEC_CALL_H_	include/linux/tee_pm_sec_call.h	2;"	d
+TEE_REQUEST_CANCELLATION_IOC	include/linux/tee_ioc.h	84;"	d
+TEE_RETURN_BUSY	armtz/tee_tz_drv.c	41;"	d	file:
+TEE_RPC_BUFFER	core/tee_supp_com.h	18;"	d
+TEE_RPC_BUFFER_NONSECURE	core/tee_supp_com.h	20;"	d
+TEE_RPC_BUFFER_NUMBER	core/tee_supp_com.h	12;"	d
+TEE_RPC_DATA_SIZE	core/tee_supp_com.h	11;"	d
+TEE_RPC_ICMD_ALLOCATE	core/tee_supp_com.h	6;"	d
+TEE_RPC_ICMD_FREE	core/tee_supp_com.h	7;"	d
+TEE_RPC_ICMD_INVOKE	core/tee_supp_com.h	8;"	d
+TEE_RPC_INSTALL_SYS_TA	core/tee_supp_com.h	26;"	d
+TEE_RPC_LOAD_TA	core/tee_supp_com.h	22;"	d
+TEE_RPC_NBR_BUFF	core/tee_supp_com.h	10;"	d
+TEE_RPC_RPMB_CMD	core/tee_supp_com.h	24;"	d
+TEE_RPC_STATE_ACTIVE	core/tee_supp_com.h	15;"	d
+TEE_RPC_STATE_IDLE	core/tee_supp_com.h	14;"	d
+TEE_RPC_VALUE	core/tee_supp_com.h	19;"	d
+TEE_RPC_WAIT	core/tee_supp_com.h	33;"	d
+TEE_RPC_WAIT_QUEUE_SLEEP	core/tee_supp_com.h	31;"	d
+TEE_RPC_WAIT_QUEUE_WAKEUP	core/tee_supp_com.h	32;"	d
+TEE_RPMB_BUFFER_NUMBER	core/tee_supp_com.h	4;"	d
+TEE_RPMB_EMMC_CID_SIZE	include/linux/tee_rpmb.h	11;"	d
+TEE_RPMB_GET_DEV_INFO	include/linux/tee_rpmb.h	22;"	d
+TEE_RPMB_GET_WRITE_COUNTER	include/linux/tee_rpmb.h	24;"	d
+TEE_RPMB_H	include/linux/tee_rpmb.h	2;"	d
+TEE_RPMB_PROGRAM_KEY	include/linux/tee_rpmb.h	23;"	d
+TEE_RPMB_READ_DATA	include/linux/tee_rpmb.h	26;"	d
+TEE_RPMB_SWITCH_NORMAL	include/linux/tee_rpmb.h	27;"	d
+TEE_RPMB_WRITE_DATA	include/linux/tee_rpmb.h	25;"	d
+TEE_RUNNING	include/linux/tee_core.h	/^	TEE_RUNNING = 3,$/;"	e	enum:tee_state
+TEE_SHM_CACHED	include/linux/tee_core.h	163;"	d
+TEE_SHM_DRV_PRIV_MASK	include/linux/tee_core.h	165;"	d
+TEE_SHM_FROM_RPC	include/linux/tee_core.h	160;"	d
+TEE_SHM_MAPPED	include/linux/tee_core.h	158;"	d
+TEE_SHM_MEMREF	include/linux/tee_core.h	162;"	d
+TEE_SHM_REGISTERED	include/linux/tee_core.h	161;"	d
+TEE_SHM_TEMP	include/linux/tee_core.h	159;"	d
+TEE_SMC_XFER_H	armtz/tee_smc_xfer.h	2;"	d
+TEE_STATS_CONTEXT_IDX	include/linux/tee_core.h	40;"	d
+TEE_STATS_SESSION_IDX	include/linux/tee_core.h	41;"	d
+TEE_STATS_SHM_IDX	include/linux/tee_core.h	42;"	d
+TEE_SUPP_COMM_H	core/tee_supp_com.h	2;"	d
+TEE_SUSPENDED	include/linux/tee_core.h	/^	TEE_SUSPENDED = 2,$/;"	e	enum:tee_state
+TEE_TA_MGMT_H	core/tee_ta_mgmt.h	2;"	d
+TEE_TUI_CLOSE_SESSION_IOC	include/linux/tee_ioc.h	90;"	d
+TEE_TUI_NOTIFY_IOC	include/linux/tee_ioc.h	91;"	d
+TEE_TUI_OPEN_SESSION_IOC	include/linux/tee_ioc.h	89;"	d
+TEE_TUI_WAITCMD_IOC	include/linux/tee_ioc.h	92;"	d
+TEE_TZ_DEVICE_NAME	core/tee_kernel_api.c	15;"	d	file:
+TEE_WAIT_QUEUE_H	core/tee_wait_queue.h	2;"	d
+TICK_GT	core/tee_mutex_wait.c	16;"	d	file:
+TKCORE_DEFINE_TRACE	core/tee_procfs.c	50;"	d	file:
+TKCORE_ERRATA_802022	include/linux/tee_pm_sec_call.h	8;"	d
+TKCORE_FASTCALL_TRACE_CONFIG	include/arm_common/teesmc_st.h	62;"	d
+TKCORE_FUNCID_TRACE_CONFIG	include/arm_common/teesmc_st.h	61;"	d
+TKCORE_LOG_KMSG	core/tee_procfs.c	27;"	d	file:
+TKCORE_PM_H	core/pm.h	2;"	d
+TKCORE_PREPARE_CPU_OFF	include/linux/tee_pm_sec_call.h	7;"	d
+TKCORE_SET_NS_BOOT_ADDR	include/linux/tee_pm_sec_call.h	6;"	d
+TKCORE_VERSION_H	version.h	2;"	d
+TRACE_BUF_SIZE	core/tee_procfs.c	426;"	d	file:
+TRUSTEDUI_MODE_ALL	core/tee_tui.h	5;"	d
+TRUSTEDUI_MODE_INPUT_SECURED	core/tee_tui.h	8;"	d
+TRUSTEDUI_MODE_OFF	core/tee_tui.h	4;"	d
+TRUSTEDUI_MODE_TUI_SESSION	core/tee_tui.h	6;"	d
+TRUSTEDUI_MODE_VIDEO_SECURED	core/tee_tui.h	7;"	d
+USE_DEVM_ALLOC	armtz/tee_mem.c	6;"	d	file:
+_DEV	include/linux/tee_core.h	67;"	d
+_DEV_TEE	core/tee_session.c	21;"	d	file:
+_DUMP_INFO_ALLOCATOR	armtz/tee_mem.c	5;"	d	file:
+_KFREE	armtz/tee_mem.c	10;"	d	file:
+_KFREE	armtz/tee_mem.c	13;"	d	file:
+_KMALLOC	armtz/tee_mem.c	12;"	d	file:
+_KMALLOC	armtz/tee_mem.c	9;"	d	file:
+_TEE_CORE_FW_VER	core/tee_core.c	/^MODULE_VERSION(_TEE_CORE_FW_VER);$/;"	v
+_TEE_CORE_FW_VER	core/tee_core.c	87;"	d	file:
+_TEE_IOC_H	include/linux/tee_ioc.h	2;"	d
+_TEE_KERNEL_API_H	include/linux/tee_kernel_api.h	2;"	d
+_TEE_KERNEL_LOWLEVEL_API_H	include/linux/tee_kernel_lowlevel_api.h	2;"	d
+_TEE_TUI_H_	core/tee_tui.h	2;"	d
+_TEE_TZ_NAME	armtz/tee_tz_drv.c	32;"	d	file:
+_TUI_HAL_H_	core/tee_tui_hal.h	2;"	d
+_UUID_STR_SIZE	core/tee_session.c	45;"	d	file:
+__CALCULATE_RATIO_MEM_USED	armtz/tee_mem.c	57;"	d	file:
+__TEE_ARMV7_OP_H__	armtz/tee_tz_op.h	2;"	d
+__TEE_CORE_DRV_H__	include/linux/tee_core.h	2;"	d
+__TEE_CORE_PRIV_H__	core/tee_core_priv.h	2;"	d
+__TEE_PROCFS_H__	core/tee_procfs.h	2;"	d
+__TEE_SHM_H__	core/tee_shm.h	2;"	d
+__TEE_SYSFS_H__	core/tee_sysfs.h	2;"	d
+__TEE_TZ_PRIV__	armtz/tee_tz_priv.h	2;"	d
+__call_tee	armtz/tee_smc_xfer.c	/^void __call_tee(struct smc_param *p)$/;"	f
+__copy_log_to_user	core/tee_procfs.c	/^static ssize_t __copy_log_to_user(char __user *buf, char *kbuf, size_t count, const char *func, int lineno)$/;"	f	file:
+__dequeue_cmd	armtz/tee_smc_xfer.c	/^static inline smc_xfer_cmd_t *__dequeue_cmd(tee_smc_xfer_ctl_t *ctl)$/;"	f	file:
+__enqueue_cmd	armtz/tee_smc_xfer.c	/^static inline void __enqueue_cmd(tee_smc_xfer_ctl_t *ctl, smc_xfer_cmd_t *cmd)$/;"	f	file:
+__read_mostly	armtz/tee_smc_xfer.c	/^static int nr_cpus __read_mostly;$/;"	v	file:
+__read_mostly	core/tee_procfs.c	/^int log_irq_num __read_mostly = -1;$/;"	v
+__smc_xfer	armtz/tee_smc_xfer.c	/^static inline void __smc_xfer(tee_smc_xfer_ctl_t *ctl, struct smc_param *p)$/;"	f	file:
+__smc_xfer	armtz/tee_smc_xfer.c	/^static void __smc_xfer(tee_smc_xfer_ctl_t *ctl, struct smc_param *p)$/;"	f	file:
+__tee_get	core/tee_core.c	/^EXPORT_SYMBOL(__tee_get);$/;"	v
+__tee_get	core/tee_core.c	/^int __tee_get(struct tee *tee)$/;"	f
+__tee_ns_shm_mmap	core/tee_shm.c	/^static int __tee_ns_shm_mmap(struct file *filp, struct vm_area_struct *vma)$/;"	f	file:
+__tee_ns_shm_release	core/tee_shm.c	/^static int __tee_ns_shm_release(struct inode *inode, struct file *filp)$/;"	f	file:
+__tee_ns_shm_vma_fault	core/tee_shm.c	/^static int __tee_ns_shm_vma_fault(struct vm_area_struct *vma, struct vm_fault *vmf)$/;"	f	file:
+__tee_shm_attach_dma_buf	core/tee_shm.c	/^static int __tee_shm_attach_dma_buf(struct dma_buf *dmabuf,$/;"	f	file:
+__tee_shm_detach_dma_buf	core/tee_shm.c	/^static void __tee_shm_detach_dma_buf(struct dma_buf *dmabuf,$/;"	f	file:
+__tee_shm_dma_buf_kmap	core/tee_shm.c	/^static void *__tee_shm_dma_buf_kmap(struct dma_buf *db, unsigned long pgnum)$/;"	f	file:
+__tee_shm_dma_buf_kmap_atomic	core/tee_shm.c	/^static void *__tee_shm_dma_buf_kmap_atomic(struct dma_buf *dmabuf,$/;"	f	file:
+__tee_shm_dma_buf_kunmap	core/tee_shm.c	/^static void __tee_shm_dma_buf_kunmap($/;"	f	file:
+__tee_shm_dma_buf_map_dma_buf	core/tee_shm.c	/^static struct sg_table *__tee_shm_dma_buf_map_dma_buf($/;"	f	file:
+__tee_shm_dma_buf_mmap	core/tee_shm.c	/^static int __tee_shm_dma_buf_mmap(struct dma_buf *dmabuf,$/;"	f	file:
+__tee_shm_dma_buf_release	core/tee_shm.c	/^static void __tee_shm_dma_buf_release(struct dma_buf *dmabuf)$/;"	f	file:
+__tee_shm_dma_buf_unmap_dma_buf	core/tee_shm.c	/^static void __tee_shm_dma_buf_unmap_dma_buf(struct dma_buf_attachment *attach,$/;"	f	file:
+__user	include/linux/tee_ioc.h	7;"	d
+_init_tee_cmd	core/tee_session.c	/^static int _init_tee_cmd(struct tee_session *sess, struct tee_cmd_io *cmd_io,$/;"	f	file:
+_release_tee_cmd	core/tee_session.c	/^static void _release_tee_cmd(struct tee_session *sess, struct tee_cmd *cmd)$/;"	f	file:
+_tee_context_do_release	core/tee_context.c	/^static void _tee_context_do_release(struct kref *kref)$/;"	f	file:
+_tee_supp_app_name	core/tee_core.c	/^static char *_tee_supp_app_name = "teed";$/;"	v	file:
+_update_client_tee_cmd	core/tee_session.c	/^static void _update_client_tee_cmd(struct tee_session *sess,$/;"	f	file:
+_uuid_to_str	core/tee_session.c	/^static char *_uuid_to_str(const TEEC_UUID *uuid)$/;"	f	file:
+a	include/arm_common/teesmc.h	/^	uint32_t a;$/;"	m	struct:teesmc32_param_value
+a	include/arm_common/teesmc.h	/^	uint64_t a;$/;"	m	struct:teesmc64_param_value
+a	include/linux/tee_client_api.h	/^	uint32_t a;$/;"	m	struct:__anon24
+a0	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a0;$/;"	m	struct:smc_param
+a0	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a0;$/;"	m	struct:smc_param
+a1	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a1;$/;"	m	struct:smc_param
+a1	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a1;$/;"	m	struct:smc_param
+a2	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a2;$/;"	m	struct:smc_param
+a2	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a2;$/;"	m	struct:smc_param
+a3	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a3;$/;"	m	struct:smc_param
+a3	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a3;$/;"	m	struct:smc_param
+a4	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a4;$/;"	m	struct:smc_param
+a4	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a4;$/;"	m	struct:smc_param
+a5	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a5;$/;"	m	struct:smc_param
+a5	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a5;$/;"	m	struct:smc_param
+a6	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a6;$/;"	m	struct:smc_param
+a6	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a6;$/;"	m	struct:smc_param
+a7	include/linux/tee_kernel_lowlevel_api.h	/^	uint32_t a7;$/;"	m	struct:smc_param
+a7	include/linux/tee_kernel_lowlevel_api.h	/^	uint64_t a7;$/;"	m	struct:smc_param
+addr	include/linux/tee_rpmb.h	/^	uint16_t addr;$/;"	m	struct:tkcore_rpmb_request
+adjust_klog_tail	core/tee_procfs.c	/^static uint32_t adjust_klog_tail(uint32_t head, uint32_t tail, uint32_t count)$/;"	f	file:
+alloc	include/linux/tee_core.h	/^	struct tee_shm *(*alloc)(struct tee *tee, size_t size,$/;"	m	struct:tee_ops	typeref:struct:tee_ops::alloc
+alloc_tee_arg	armtz/tee_tz_drv.c	/^static void *alloc_tee_arg(struct tee_tz *ptee, unsigned long *p, size_t l)$/;"	f	file:
+argnum	core/tee_clkmgr.c	/^    size_t argnum;$/;"	m	struct:__anon32	file:
+attach	include/linux/tee_core.h	/^	struct dma_buf_attachment *attach;$/;"	m	struct:tee_shm_dma_buf	typeref:struct:tee_shm_dma_buf::dma_buf_attachment
+attr	include/arm_common/teesmc.h	/^	uint32_t attr;$/;"	m	struct:teesmc32_param
+attr	include/arm_common/teesmc.h	/^	uint64_t attr;$/;"	m	struct:teesmc64_param
+awake_fn	core/pm.h	/^typedef int (* awake_fn) (void *);$/;"	t
+b	include/arm_common/teesmc.h	/^	uint32_t b;$/;"	m	struct:teesmc32_param_value
+b	include/arm_common/teesmc.h	/^	uint64_t b;$/;"	m	struct:teesmc64_param_value
+b	include/linux/tee_client_api.h	/^	uint32_t b;$/;"	m	struct:__anon24
+bf	armtz/tee_tz_op.h	/^	uint32_t bf;$/;"	m	struct:tee_register_rpc_send_data
+blk_cnt	include/linux/tee_rpmb.h	/^	uint16_t blk_cnt;$/;"	m	struct:tkcore_rpmb_request
+buf_ptr	include/arm_common/teesmc.h	/^	uint32_t buf_ptr;$/;"	m	struct:teesmc32_param_memref
+buf_ptr	include/arm_common/teesmc.h	/^	uint64_t buf_ptr;$/;"	m	struct:teesmc64_param_memref
+buffer	core/tee_supp_com.h	/^		void    *buffer;$/;"	m	union:tee_rpc_cmd::__anon31
+buffer	include/linux/tee_client_api.h	/^		void *buffer;$/;"	m	union:__anon13::__anon14
+buffer	include/linux/tee_client_api.h	/^		void *buffer;$/;"	m	union:__anon17::__anon18
+buffer	include/linux/tee_ioc.h	/^		void __user *buffer;$/;"	m	union:tee_shm_io::__anon6
+c_shm	include/linux/tee_core.h	/^	TEEC_SharedMemory c_shm[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_data
+cached	armtz/tee_mem.c	/^	bool cached;		\/* true if pool is cacheable *\/$/;"	m	struct:shm_pool	file:
+call_tee	armtz/tee_tz_drv.c	/^static void call_tee(struct tee_tz *ptee, uintptr_t parg32, struct teesmc32_arg *arg32, u32 funcid)$/;"	f	file:
+call_tee	include/linux/tee_core.h	/^	void (*call_tee)(struct smc_param *p);$/;"	m	struct:tee_ops
+cancel	include/linux/tee_core.h	/^	int (*cancel)(struct tee_session *sess, struct tee_cmd *cmd);$/;"	m	struct:tee_ops
+candidate_big_cpu	armtz/tee_smc_xfer.c	/^	int candidate_big_cpu;$/;"	m	struct:__anon36	file:
+cb	armtz/tee_tz_op.h	/^		unsigned long cb;$/;"	m	struct:tee_register_irqfwd_send::__anon37
+cid	include/linux/tee_rpmb.h	/^	uint8_t cid[TEE_RPMB_EMMC_CID_SIZE];$/;"	m	struct:tee_rpmb_dev_info
+client_id	armtz/tee_tz_op.h	/^	struct tee_identity client_id;$/;"	m	struct:tee_open_session_data	typeref:struct:tee_open_session_data::tee_identity
+clk_list_lock	core/tee_clkmgr.c	/^static spinlock_t clk_list_lock;$/;"	v	file:
+clkid	core/tee_clkmgr.c	/^static const char *clkid[] = {$/;"	v	file:
+clkmgr_handle_t	core/tee_clkmgr.c	/^} clkmgr_handle_t;$/;"	t	typeref:struct:__anon32	file:
+clnt_login	include/arm_common/teesmc.h	/^	uint32_t clnt_login;$/;"	m	struct:teesmc_meta_open_session
+clnt_uuid	include/arm_common/teesmc.h	/^	uint8_t clnt_uuid[TEESMC_UUID_LEN];$/;"	m	struct:teesmc_meta_open_session
+clockSeqAndNode	include/linux/tee_client_api.h	/^	uint8_t clockSeqAndNode[8];$/;"	m	struct:__anon12
+close	include/linux/tee_core.h	/^	int (*close)(struct tee_session *sess);$/;"	m	struct:tee_ops
+cmd	armtz/tee_tz_drv.c	/^	uint16_t cmd;$/;"	m	struct:tee_rpmb_cmd	file:
+cmd	armtz/tee_tz_op.h	/^	uint32_t cmd;$/;"	m	struct:tee_invoke_command_data
+cmd	core/tee_supp_com.h	/^	uint32_t cmd;$/;"	m	struct:tee_rpc_invoke
+cmd	include/arm_common/teesmc.h	/^	uint32_t cmd;$/;"	m	struct:teesmc32_arg
+cmd	include/arm_common/teesmc.h	/^	uint64_t cmd;$/;"	m	struct:teesmc64_arg
+cmd	include/linux/tee_core.h	/^	uint32_t cmd;$/;"	m	struct:tee_cmd
+cmd	include/linux/tee_ioc.h	/^	uint32_t cmd;$/;"	m	struct:tee_cmd_io
+cmd_head	armtz/tee_smc_xfer.c	/^	struct list_head cmd_head;$/;"	m	struct:__anon36	typeref:struct:__anon36::list_head	file:
+cmd_id	core/tee_session.c	/^	uint32_t cmd_id;$/;"	m	struct:tui_obj	file:
+cmd_lock	armtz/tee_smc_xfer.c	/^	spinlock_t cmd_lock;$/;"	m	struct:__anon36	file:
+cmds	core/tee_supp_com.h	/^	struct tee_rpc_cmd cmds[TEE_RPC_BUFFER_NUMBER];$/;"	m	struct:tee_rpc_invoke	typeref:struct:tee_rpc_invoke::tee_rpc_cmd
+commFromUser	core/tee_supp_com.h	/^	struct tee_rpc_invoke commFromUser;$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::tee_rpc_invoke
+commToUser	core/tee_supp_com.h	/^	struct tee_rpc_invoke commToUser;$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::tee_rpc_invoke
+comp	core/tee_mutex_wait.c	/^	struct completion comp;$/;"	m	struct:tee_mutex_wait	typeref:struct:tee_mutex_wait::completion	file:
+comp	core/tee_wait_queue.c	/^	struct completion comp;$/;"	m	struct:tee_wait_queue	typeref:struct:tee_wait_queue::completion	file:
+conf	include/linux/tee_core.h	/^	uint32_t conf;$/;"	m	struct:tee
+conf_show	core/tee_sysfs.c	/^static ssize_t conf_show(struct device *device,$/;"	f	file:
+configure_shm	armtz/tee_tz_drv.c	/^static int configure_shm(struct tee_tz *ptee)$/;"	f	file:
+copy_log_to_user	core/tee_procfs.c	186;"	d	file:
+copy_to_user_str	core/tee_procfs.c	/^static ssize_t copy_to_user_str(char __user *buf, ssize_t count, loff_t *pos, const char *version)$/;"	f	file:
+count	include/linux/tee_core.h	/^	int count;$/;"	m	struct:tee_stats_entry
+counter	armtz/tee_mem.c	/^	uint32_t counter;$/;"	m	struct:mem_chunk	file:
+cpu_is_big	armtz/tee_smc_xfer.c	/^static bool cpu_is_big(int cpu)$/;"	f	file:
+cpu_lock_mask	armtz/tee_smc_xfer.c	/^	uint32_t cpu_lock_mask;$/;"	m	struct:__anon36	file:
+cpuid_to_tid	armtz/tee_smc_xfer.c	/^	int cpuid_to_tid[NR_CPUS];$/;"	m	struct:__anon36	file:
+create_entry	core/tee_procfs.c	/^static int create_entry(struct tee *tee)$/;"	f	file:
+ctx	include/linux/tee_client_api.h	/^		struct tee_context *ctx;$/;"	m	union:__anon10::__anon11	typeref:struct:__anon10::__anon11::tee_context
+ctx	include/linux/tee_core.h	/^	struct tee_context *ctx;$/;"	m	struct:tee_session	typeref:struct:tee_session::tee_context
+ctx	include/linux/tee_core.h	/^	struct tee_context *ctx;$/;"	m	struct:tee_shm	typeref:struct:tee_shm::tee_context
+d	core/tee_clkmgr.c	/^    tee_clk_fn e, d;$/;"	m	struct:__anon32	file:
+d	include/linux/tee_client_api.h	/^	} d;$/;"	m	struct:__anon13	typeref:union:__anon13::__anon16
+data	armtz/tee_tz_op.h	/^	struct tee_cancel_command_data data;$/;"	m	struct:tee_cancel_command_send	typeref:struct:tee_cancel_command_send::tee_cancel_command_data
+data	armtz/tee_tz_op.h	/^	struct tee_close_session_data data;$/;"	m	struct:tee_close_session_send	typeref:struct:tee_close_session_send::tee_close_session_data
+data	armtz/tee_tz_op.h	/^	struct tee_invoke_command_data data;$/;"	m	struct:tee_invoke_command_send	typeref:struct:tee_invoke_command_send::tee_invoke_command_data
+data	armtz/tee_tz_op.h	/^	struct tee_open_session_data data;$/;"	m	struct:tee_open_session_send	typeref:struct:tee_open_session_send::tee_open_session_data
+data	armtz/tee_tz_op.h	/^	struct tee_register_rpc_send_data data;$/;"	m	struct:tee_register_rpc_send	typeref:struct:tee_register_rpc_send::tee_register_rpc_send_data
+data	armtz/tee_tz_op.h	/^	} data;$/;"	m	struct:tee_get_l2cc_mutex_recv	typeref:struct:tee_get_l2cc_mutex_recv::__anon38
+data	armtz/tee_tz_op.h	/^	} data;$/;"	m	struct:tee_register_irqfwd_send	typeref:struct:tee_register_irqfwd_send::__anon37
+data	core/tee_procfs.c	/^	unsigned char data[TEE_LOG_CTL_BUF_SIZE];$/;"	m	union:tee_log_ctrl	file:
+data	core/tee_supp_com.h	/^	uint8_t data[TEE_RPC_DATA_SIZE];$/;"	m	struct:tee_rpc_bf
+data	core/tee_supp_com.h	/^	void *data;	\/* pointer to data *\/$/;"	m	struct:tee_rpc_alloc
+data	include/linux/tee_ioc.h	/^		void __user *data;$/;"	m	union:tee_cmd_io::__anon4
+data_frame	include/linux/tee_rpmb.h	/^	uint8_t *data_frame;$/;"	m	struct:tkcore_rpmb_request
+data_size	include/linux/tee_ioc.h	/^	uint32_t data_size;$/;"	m	struct:tee_cmd_io
+datafromuser	core/tee_supp_com.h	/^	struct semaphore datafromuser;$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::semaphore
+datatouser	core/tee_supp_com.h	/^	struct semaphore datatouser;$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::semaphore
+db	core/tee_mutex_wait.h	/^	struct list_head db;$/;"	m	struct:tee_mutex_wait_private	typeref:struct:tee_mutex_wait_private::list_head
+db	core/tee_wait_queue.h	/^	struct list_head db;$/;"	m	struct:tee_wait_queue_private	typeref:struct:tee_wait_queue_private::list_head
+desc	core/tee_procfs.c	/^	const char *desc;$/;"	m	struct:tkcore_trace	file:
+dev	include/linux/tee_core.h	/^	struct device *dev;$/;"	m	struct:tee	typeref:struct:tee::device
+dev	include/linux/tee_core.h	/^	struct device *dev;$/;"	m	struct:tee_shm	typeref:struct:tee_shm::device
+dev_id	armtz/tee_tz_drv.c	/^	uint16_t dev_id;$/;"	m	struct:tee_rpmb_cmd	file:
+device_attrs	core/tee_sysfs.c	/^static struct device_attribute device_attrs[] = {$/;"	v	typeref:struct:device_attribute	file:
+device_match	core/tee_core.c	/^static int device_match(struct device *device, const void *devname)$/;"	f	file:
+devname	include/linux/tee_client_api.h	/^	char devname[256];$/;"	m	struct:__anon10
+dir	core/tee_shm.c	/^	enum dma_data_direction dir;$/;"	m	struct:tee_shm_attach	typeref:enum:tee_shm_attach::dma_data_direction	file:
+disable_spi_clk	core/tee_fp.c	/^void (* disable_spi_clk) (struct mt_spi_t *) = NULL;$/;"	v
+disable_spi_clk	core/tee_fp.c	/^void (* disable_spi_clk) (void) = NULL;$/;"	v
+do_klog	core/tee_procfs.c	/^static uint32_t do_klog(uint32_t rseq, uint32_t wseq, uint32_t head, uint32_t tail)$/;"	f	file:
+do_ulog	core/tee_procfs.c	/^static ssize_t do_ulog(char *kbuf, uint32_t head, uint32_t tail, size_t count)$/;"	f	file:
+done_sem	armtz/tee_smc_xfer.c	/^	struct semaphore done_sem;$/;"	m	struct:__anon34	typeref:struct:__anon34::semaphore	file:
+drv_version_ops	core/tee_procfs.c	/^static const struct file_operations drv_version_ops = {$/;"	v	typeref:struct:file_operations	file:
+drv_version_read	core/tee_procfs.c	/^static ssize_t drv_version_read(struct file *file, char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+dump_show	core/tee_sysfs.c	/^static ssize_t dump_show(struct device *device,$/;"	f	file:
+duration	armtz/tee_tz_op.h	/^	int duration;$/;"	m	struct:tee_msg_recv
+e	core/tee_clkmgr.c	/^    tee_clk_fn e, d;$/;"	m	struct:__anon32	file:
+enable_spi_clk	core/tee_fp.c	/^void (* enable_spi_clk) (struct mt_spi_t *) = NULL;$/;"	v
+enable_spi_clk	core/tee_fp.c	/^void (* enable_spi_clk) (void) = NULL;$/;"	v
+entry	armtz/tee_smc_xfer.c	/^	struct list_head entry;$/;"	m	struct:__anon34	typeref:struct:__anon34::list_head	file:
+entry	include/linux/tee_core.h	/^	struct list_head entry;$/;"	m	struct:tee_context	typeref:struct:tee_context::list_head
+entry	include/linux/tee_core.h	/^	struct list_head entry;$/;"	m	struct:tee_session	typeref:struct:tee_session::list_head
+entry	include/linux/tee_core.h	/^	struct list_head entry;$/;"	m	struct:tee_shm	typeref:struct:tee_shm::list_head
+err	include/linux/tee_core.h	/^	TEEC_Result err;$/;"	m	struct:tee_cmd
+err	include/linux/tee_ioc.h	/^	TEEC_Result err;$/;"	m	struct:tee_cmd_io
+fastcall_tee	armtz/tee_tz_drv.c	/^static inline void fastcall_tee(struct tee_tz *ptee, uintptr_t parg32, struct teesmc32_arg *arg32)$/;"	f	file:
+fd	core/tee_supp_com.h	/^	int fd;$/;"	m	struct:tee_rpc_cmd
+fd	include/linux/tee_client_api.h	/^		int fd;$/;"	m	union:__anon10::__anon11
+fd	include/linux/tee_client_api.h	/^		int fd;$/;"	m	union:__anon13::__anon16
+fd	include/linux/tee_client_api.h	/^	int fd;$/;"	m	struct:__anon26
+fd_sess	include/linux/tee_ioc.h	/^	int fd_sess;$/;"	m	struct:tee_cmd_io
+fd_shm	include/linux/tee_ioc.h	/^	int fd_shm;$/;"	m	struct:tee_shm_io
+flag_set	core/tee_session.c	/^static inline bool flag_set(int val, int flags)$/;"	f	file:
+flag_tui_obj	core/tee_session.c	/^static int flag_tui_obj = 0;$/;"	v	file:
+flags	include/linux/tee_client_api.h	/^	uint32_t flags;$/;"	m	struct:__anon13
+flags	include/linux/tee_client_api.h	/^	uint64_t flags;$/;"	m	struct:__anon27
+flags	include/linux/tee_core.h	/^	uint32_t flags;$/;"	m	struct:tee_shm
+flags	include/linux/tee_ioc.h	/^	uint32_t flags;$/;"	m	struct:tee_shm_io
+fnk	armtz/tee_tz_op.h	/^	uint32_t fnk;$/;"	m	struct:tee_register_rpc_send_data
+free	include/linux/tee_core.h	/^	void (*free)(struct tee_shm *shm);$/;"	m	struct:tee_ops
+free_tee_arg	armtz/tee_tz_drv.c	/^static void free_tee_arg(struct tee_tz *ptee, unsigned long p)$/;"	f	file:
+g_tui_obj	core/tee_session.c	/^} g_tui_obj;$/;"	v	typeref:struct:tui_obj
+get_cache_attrs	armtz/tee_tz_drv.c	/^static uint32_t get_cache_attrs(struct tee_tz *ptee)$/;"	f	file:
+get_clkmgr_handle	core/tee_clkmgr.c	/^static clkmgr_handle_t *get_clkmgr_handle(uint32_t token)$/;"	f	file:
+get_params	armtz/tee_tz_drv.c	/^static void get_params(struct tee_data *data,$/;"	f	file:
+hal_tui_activate	core/tee_tui_hal.c	/^uint32_t  __weak hal_tui_activate(void)$/;"	f
+hal_tui_deactivate	core/tee_tui_hal.c	/^uint32_t  __weak hal_tui_deactivate(void)$/;"	f
+hal_tui_exit	core/tee_tui_hal.c	/^void __weak hal_tui_exit(void)$/;"	f
+hal_tui_init	core/tee_tui_hal.c	/^uint32_t __weak hal_tui_init(void)$/;"	f
+handle_db	armtz/handle.h	/^struct handle_db {$/;"	s
+handle_db_destroy	armtz/handle.c	/^void handle_db_destroy(struct handle_db *db)$/;"	f
+handle_get	armtz/handle.c	/^int handle_get(struct handle_db *db, void *ptr)$/;"	f
+handle_lookup	armtz/handle.c	/^void *handle_lookup(struct handle_db *db, int handle)$/;"	f
+handle_put	armtz/handle.c	/^void *handle_put(struct handle_db *db, int handle)$/;"	f
+handle_rpc	armtz/tee_tz_drv.c	/^static u32 handle_rpc(struct tee_tz *ptee, struct smc_param *param)$/;"	f	file:
+handle_rpc_alloc	armtz/tee_tz_drv.c	/^static struct tee_shm *handle_rpc_alloc(struct tee_tz *ptee, size_t size)$/;"	f	file:
+handle_rpc_free	armtz/tee_tz_drv.c	/^static void handle_rpc_free(struct tee_tz *ptee, struct tee_shm *shm)$/;"	f	file:
+handle_rpc_func_cmd	armtz/tee_tz_drv.c	/^static void handle_rpc_func_cmd(struct tee_tz *ptee, u32 parg32)$/;"	f	file:
+handle_rpc_func_cmd_to_supplicant	armtz/tee_tz_drv.c	/^static void handle_rpc_func_cmd_to_supplicant(struct tee_tz *ptee,$/;"	f	file:
+handle_rpc_func_cmd_wait	armtz/tee_tz_drv.c	/^static void handle_rpc_func_cmd_wait(struct teesmc32_arg *arg32)$/;"	f	file:
+handle_rpc_func_cmd_wait_queue	armtz/tee_tz_drv.c	/^static void handle_rpc_func_cmd_wait_queue(struct tee_tz *ptee,$/;"	f	file:
+handle_rpmb_cmd	armtz/tee_tz_drv.c	/^static void handle_rpmb_cmd(struct tee_tz *ptee,$/;"	f	file:
+header	armtz/tee_tz_op.h	/^	struct tee_msg_recv header;$/;"	m	struct:tee_core_status_out	typeref:struct:tee_core_status_out::tee_msg_recv
+header	armtz/tee_tz_op.h	/^	struct tee_msg_recv header;$/;"	m	struct:tee_get_l2cc_mutex_recv	typeref:struct:tee_get_l2cc_mutex_recv::tee_msg_recv
+header	armtz/tee_tz_op.h	/^	struct tee_msg_recv header;$/;"	m	struct:tee_invoke_command_recv	typeref:struct:tee_invoke_command_recv::tee_msg_recv
+header	armtz/tee_tz_op.h	/^	struct tee_msg_recv header;$/;"	m	struct:tee_open_session_recv	typeref:struct:tee_open_session_recv::tee_msg_recv
+header	armtz/tee_tz_op.h	/^	struct tee_msg_recv header;$/;"	m	struct:tee_register_irqfwd_recv	typeref:struct:tee_register_irqfwd_recv::tee_msg_recv
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_cancel_command_send	typeref:struct:tee_cancel_command_send::tee_msg_send
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_close_session_send	typeref:struct:tee_close_session_send::tee_msg_send
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_get_l2cc_mutex_send	typeref:struct:tee_get_l2cc_mutex_send::tee_msg_send
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_invoke_command_send	typeref:struct:tee_invoke_command_send::tee_msg_send
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_open_session_send	typeref:struct:tee_open_session_send::tee_msg_send
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_register_irqfwd_send	typeref:struct:tee_register_irqfwd_send::tee_msg_send
+header	armtz/tee_tz_op.h	/^	struct tee_msg_send header;$/;"	m	struct:tee_register_rpc_send	typeref:struct:tee_register_rpc_send::tee_msg_send
+id	include/linux/tee_core.h	/^	int id;$/;"	m	struct:tee
+idx	core/tee_procfs.c	/^	const int idx;$/;"	m	struct:tkcore_trace	file:
+info	core/tee_procfs.c	/^    } info;$/;"	m	union:tee_log_ctrl	typeref:struct:tee_log_ctrl::__anon33	file:
+info_show	core/tee_sysfs.c	/^static ssize_t info_show(struct device *device,$/;"	f	file:
+insync	core/tee_supp_com.h	/^	struct mutex insync; \/* In sync mutex *\/$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::mutex
+invoke	include/linux/tee_core.h	/^	int (*invoke)(struct tee_session *sess, struct tee_cmd *cmd);$/;"	m	struct:tee_ops
+io_comp	core/tee_session.c	/^DECLARE_COMPLETION(io_comp);$/;"	v
+ioremap_cache	core/tee_core.c	/^void *ioremap_cache(unsigned long addr, size_t len)$/;"	f
+ioremap_cached	core/tee_core.c	53;"	d	file:
+is_in_list	core/tee_context.c	/^static int is_in_list(struct tee *tee, struct list_head *entry)$/;"	f	file:
+is_mapped	core/tee_shm.c	/^	bool is_mapped;$/;"	m	struct:tee_shm_attach	file:
+is_mapped_temp	core/tee_session.c	/^static inline bool is_mapped_temp(int flags)$/;"	f	file:
+is_valid_paddr	armtz/tee_mem.c	/^static inline int is_valid_paddr(struct shm_pool *pool, unsigned long paddr)$/;"	f	file:
+is_valid_vaddr	armtz/tee_mem.c	/^static inline int is_valid_vaddr(struct shm_pool *pool, void *vaddr)$/;"	f	file:
+kaddr	include/linux/tee_core.h	/^    void *kaddr;$/;"	m	struct:tee_shm_resv
+key	core/tee_mutex_wait.c	/^	u32 key;$/;"	m	struct:tee_mutex_wait	file:
+key	core/tee_wait_queue.c	/^	u32 key;$/;"	m	struct:tee_wait_queue	file:
+klog_head	core/tee_procfs.c	/^uint32_t klog_head;$/;"	v
+klog_tail	core/tee_procfs.c	/^uint32_t klog_tail;$/;"	v
+le	core/tee_clkmgr.c	/^    struct list_head le;$/;"	m	struct:__anon32	typeref:struct:__anon32::list_head	file:
+level	core/tee_procfs.c	/^	int level;$/;"	m	struct:tkcore_trace	file:
+linebuf	core/tee_procfs.c	/^char linebuf[LINEBUF_SIZE + 1];$/;"	v
+linebuf_last	core/tee_procfs.c	/^char *linebuf_last;$/;"	v
+link	core/tee_mutex_wait.c	/^	struct list_head link;$/;"	m	struct:tee_mutex_wait	typeref:struct:tee_mutex_wait::list_head	file:
+link	core/tee_wait_queue.c	/^	struct list_head link;$/;"	m	struct:tee_wait_queue	typeref:struct:tee_wait_queue::list_head	file:
+list_ctx	include/linux/tee_core.h	/^	struct list_head list_ctx;$/;"	m	struct:tee	typeref:struct:tee::list_head
+list_rpc_shm	include/linux/tee_core.h	/^	struct list_head list_rpc_shm;$/;"	m	struct:tee	typeref:struct:tee::list_head
+list_sess	include/linux/tee_core.h	/^	struct list_head list_sess;$/;"	m	struct:tee_context	typeref:struct:tee_context::list_head
+list_shm	include/linux/tee_core.h	/^	struct list_head list_shm;$/;"	m	struct:tee_context	typeref:struct:tee_context::list_head
+lock	armtz/tee_mem.c	/^	struct mutex lock;$/;"	m	struct:shm_pool	typeref:struct:shm_pool::mutex	file:
+lock	core/tee_session.c	/^	struct mutex lock;$/;"	m	struct:tui_obj	typeref:struct:tui_obj::mutex	file:
+lock	include/linux/tee_core.h	/^	struct mutex lock;$/;"	m	struct:tee	typeref:struct:tee::mutex
+lock_cpu	armtz/tee_smc_xfer.c	/^static inline void lock_cpu(tee_smc_xfer_ctl_t *ctl, int cpu)$/;"	f	file:
+log_mutex	core/tee_procfs.c	/^static struct mutex log_mutex;$/;"	v	typeref:struct:mutex	file:
+log_seq2idx	core/tee_procfs.c	/^static uint32_t log_seq2idx(uint32_t seq)$/;"	f	file:
+log_tee_ops	core/tee_procfs.c	/^static const struct file_operations log_tee_ops = {$/;"	v	typeref:struct:file_operations	file:
+log_tee_trace_ops	core/tee_procfs.c	/^static const struct file_operations log_tee_trace_ops = {$/;"	v	typeref:struct:file_operations	file:
+log_ts	core/tee_procfs.c	/^struct task_struct *log_ts;$/;"	v	typeref:struct:task_struct
+log_wakeup	core/tee_procfs.c	/^int log_wakeup = 0;$/;"	v
+log_wqh	core/tee_procfs.c	/^DECLARE_WAIT_QUEUE_HEAD(log_wqh);$/;"	v
+logd	core/tee_procfs.c	/^int logd(void *data)$/;"	f
+login	armtz/tee_tz_op.h	/^	uint32_t login;$/;"	m	struct:tee_identity
+max	include/linux/tee_core.h	/^	int max;$/;"	m	struct:tee_stats_entry
+max_cmd_time	armtz/tee_smc_xfer.c	/^	s64 max_cmd_time;$/;"	m	struct:__anon36	file:
+max_ptrs	armtz/handle.h	/^	unsigned max_ptrs;$/;"	m	struct:handle_db
+max_refcount	include/linux/tee_core.h	/^	int max_refcount;$/;"	m	struct:tee
+max_smc_time	armtz/tee_smc_xfer.c	/^	s64 max_smc_time;$/;"	m	struct:__anon36	file:
+mchunks	armtz/tee_mem.c	/^	struct list_head mchunks;	\/* Head of memory chunk\/block list *\/$/;"	m	struct:shm_pool	typeref:struct:shm_pool::list_head	file:
+memRefs	include/linux/tee_client_api.h	/^	TEEC_SharedMemory memRefs[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:__anon27
+mem_chunk	armtz/tee_mem.c	/^struct mem_chunk {$/;"	s	file:
+memref	include/arm_common/teesmc.h	/^		struct teesmc32_param_memref memref;$/;"	m	union:teesmc32_param::__anon1	typeref:struct:teesmc32_param::__anon1::teesmc32_param_memref
+memref	include/arm_common/teesmc.h	/^		struct teesmc64_param_memref memref;$/;"	m	union:teesmc64_param::__anon2	typeref:struct:teesmc64_param::__anon2::teesmc64_param_memref
+memref	include/linux/tee_client_api.h	/^	TEEC_RegisteredMemoryReference memref;$/;"	m	union:__anon25
+misc_class	core/tee_core.c	/^static struct class *misc_class;$/;"	v	typeref:struct:class	file:
+miscdev	include/linux/tee_core.h	/^	struct miscdevice miscdev;$/;"	m	struct:tee	typeref:struct:tee::miscdevice
+mt_spi	core/tee_fp.c	/^struct mt_spi_t *mt_spi = NULL;$/;"	v	typeref:struct:mt_spi_t
+mu	core/tee_mutex_wait.c	/^	struct mutex mu;$/;"	m	struct:tee_mutex_wait	typeref:struct:tee_mutex_wait::mutex	file:
+mu	core/tee_mutex_wait.h	/^	struct mutex mu;$/;"	m	struct:tee_mutex_wait_private	typeref:struct:tee_mutex_wait_private::mutex
+mu	core/tee_wait_queue.h	/^	struct mutex mu;$/;"	m	struct:tee_wait_queue_private	typeref:struct:tee_wait_queue_private::mutex
+name	include/linux/tee_core.h	/^	char name[TEE_MAX_CLIENT_NAME];$/;"	m	struct:tee_context
+name	include/linux/tee_core.h	/^	char name[TEE_MAX_TEE_DEV_NAME];$/;"	m	struct:tee
+name_show	core/tee_sysfs.c	/^static ssize_t name_show(struct device *device,$/;"	f	file:
+nbr_bf	armtz/tee_tz_op.h	/^	uint32_t nbr_bf;$/;"	m	struct:tee_register_rpc_send_data
+nbr_bf	core/tee_supp_com.h	/^	uint32_t nbr_bf;$/;"	m	struct:tee_rpc_invoke
+node	armtz/tee_mem.c	/^	struct list_head node;$/;"	m	struct:mem_chunk	typeref:struct:mem_chunk::list_head	file:
+node	include/linux/tee_core.h	/^	struct klist_node node;$/;"	m	struct:tee	typeref:struct:tee::klist_node
+nr_pages	include/linux/tee_core.h	/^	size_t nr_pages;$/;"	m	struct:tee_shm_ns
+nr_unbound_cmds	armtz/tee_smc_xfer.c	/^	atomic_t nr_unbound_cmds;$/;"	m	struct:__anon36	file:
+nr_waiting_cmds	armtz/tee_smc_xfer.c	/^	atomic_t nr_waiting_cmds;$/;"	m	struct:__anon36	file:
+ns	include/linux/tee_core.h	/^        struct tee_shm_ns ns;$/;"	m	union:tee_shm::__anon29	typeref:struct:tee_shm::__anon29::tee_shm_ns
+num_params	include/arm_common/teesmc.h	/^	uint32_t num_params;$/;"	m	struct:teesmc32_arg
+num_params	include/arm_common/teesmc.h	/^	uint64_t num_params;$/;"	m	struct:teesmc64_arg
+offset	include/linux/tee_client_api.h	/^		size_t offset;$/;"	m	union:__anon20::__anon23
+op	core/tee_session.c	/^	struct tee_cmd_io op; \/\/ cached operation$/;"	m	struct:tui_obj	typeref:struct:tui_obj::tee_cmd_io	file:
+op	include/linux/tee_ioc.h	/^		TEEC_Operation __user *op;$/;"	m	union:tee_cmd_io::__anon5
+open	include/linux/tee_core.h	/^	int (*open)(struct tee_session *sess, struct tee_cmd *cmd);$/;"	m	struct:tee_ops
+ops	include/linux/tee_core.h	/^	const struct tee_ops *ops;$/;"	m	struct:tee	typeref:struct:tee::tee_ops
+origin	armtz/tee_tz_op.h	/^	uint32_t origin;$/;"	m	struct:tee_msg_recv
+origin	include/linux/tee_core.h	/^	uint32_t origin;$/;"	m	struct:tee_cmd
+origin	include/linux/tee_ioc.h	/^	uint32_t origin;$/;"	m	struct:tee_cmd_io
+outer_tz_mutex	armtz/tee_tz_drv.c	/^bool __weak outer_tz_mutex(unsigned long *p)$/;"	f
+outsync	core/tee_supp_com.h	/^	struct mutex outsync; \/* Out sync mutex *\/$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::mutex
+owner	include/linux/tee_core.h	/^	struct module *owner;$/;"	m	struct:tee_ops	typeref:struct:tee_ops::module
+p0	core/tee_clkmgr.c	/^    void *p0, *p1, *p2;$/;"	m	struct:__anon32	file:
+p1	core/tee_clkmgr.c	/^    void *p0, *p1, *p2;$/;"	m	struct:__anon32	file:
+p2	core/tee_clkmgr.c	/^    void *p0, *p1, *p2;$/;"	m	struct:__anon32	file:
+pad1	include/linux/tee_ioc.h	/^        uint64_t pad1;$/;"	m	union:tee_ta_inst_desc::__anon7
+pad2	include/linux/tee_ioc.h	/^        uint64_t pad2;$/;"	m	union:tee_ta_inst_desc::__anon8
+pad3	include/linux/tee_ioc.h	/^        uint64_t pad3;$/;"	m	union:tee_ta_inst_desc::__anon9
+padding_buf	core/tee_supp_com.h	/^		uint64_t padding_buf;$/;"	m	union:tee_rpc_cmd::__anon31
+padding_buf	include/linux/tee_ioc.h	/^		uint64_t padding_buf;$/;"	m	union:tee_shm_io::__anon6
+padding_d	include/linux/tee_client_api.h	/^		uint64_t padding_d;$/;"	m	union:__anon13::__anon16
+padding_data	include/linux/tee_ioc.h	/^		uint64_t padding_data;$/;"	m	union:tee_cmd_io::__anon4
+padding_off	include/linux/tee_client_api.h	/^		uint64_t padding_off;$/;"	m	union:__anon20::__anon23
+padding_op	include/linux/tee_ioc.h	/^		uint64_t padding_op;$/;"	m	union:tee_cmd_io::__anon5
+padding_ptr	include/linux/tee_client_api.h	/^		uint64_t padding_ptr;$/;"	m	union:__anon13::__anon14
+padding_ptr	include/linux/tee_client_api.h	/^		uint64_t padding_ptr;$/;"	m	union:__anon17::__anon18
+padding_ptr	include/linux/tee_client_api.h	/^		uint64_t padding_ptr;$/;"	m	union:__anon20::__anon21
+padding_ptr	include/linux/tee_client_api.h	/^		uint64_t padding_ptr;$/;"	m	union:__anon27::__anon28
+padding_sz	include/linux/tee_client_api.h	/^		uint64_t padding_sz;$/;"	m	union:__anon13::__anon15
+padding_sz	include/linux/tee_client_api.h	/^		uint64_t padding_sz;$/;"	m	union:__anon17::__anon19
+padding_sz	include/linux/tee_client_api.h	/^		uint64_t padding_sz;$/;"	m	union:__anon20::__anon22
+padding_uuid	include/linux/tee_ioc.h	/^		uint64_t padding_uuid;$/;"	m	union:tee_cmd_io::__anon3
+paddr	armtz/tee_mem.c	/^	unsigned long paddr;	\/* Associated Physical address *\/$/;"	m	struct:shm_pool	file:
+paddr	armtz/tee_mem.c	/^	unsigned long paddr;$/;"	m	struct:mem_chunk	file:
+paddr	armtz/tee_tz_op.h	/^		unsigned long paddr;$/;"	m	struct:tee_get_l2cc_mutex_recv::__anon38
+paddr	include/linux/tee_core.h	/^    dma_addr_t paddr;$/;"	m	struct:tee_shm_resv
+paddr	include/linux/tee_ioc.h	/^		void *paddr;$/;"	m	union:tee_shm_io::__anon6
+pages	include/linux/tee_core.h	/^    struct page **pages;$/;"	m	struct:tee_shm_ns	typeref:struct:tee_shm_ns::page
+param	armtz/tee_smc_xfer.c	/^	struct smc_param *param;$/;"	m	struct:__anon34	typeref:struct:__anon34::smc_param	file:
+param	include/linux/tee_core.h	/^	struct tee_data param;$/;"	m	struct:tee_cmd	typeref:struct:tee_cmd::tee_data
+paramTypes	include/linux/tee_client_api.h	/^	uint32_t paramTypes;$/;"	m	struct:__anon27
+param_type_teec2teesmc	armtz/tee_tz_drv.c	/^static uint32_t param_type_teec2teesmc(uint8_t type)$/;"	f	file:
+param_types	armtz/tee_tz_op.h	/^	uint32_t param_types;$/;"	m	struct:tee_invoke_command_data
+param_types	armtz/tee_tz_op.h	/^	uint32_t param_types;$/;"	m	struct:tee_open_session_data
+params	armtz/tee_tz_op.h	/^	TEEC_Value params[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_invoke_command_data
+params	armtz/tee_tz_op.h	/^	TEEC_Value params[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_invoke_command_recv
+params	armtz/tee_tz_op.h	/^	TEEC_Value params[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_open_session_data
+params	armtz/tee_tz_op.h	/^	TEEC_Value params[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_open_session_recv
+params	include/linux/tee_client_api.h	/^	TEEC_Parameter params[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:__anon27
+params	include/linux/tee_core.h	/^	} params[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_data	typeref:union:tee_data::__anon30
+params_flags	armtz/tee_tz_op.h	/^	uint32_t params_flags[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_invoke_command_data
+params_flags	armtz/tee_tz_op.h	/^	uint32_t params_flags[TEEC_CONFIG_PAYLOAD_REF_COUNT];$/;"	m	struct:tee_open_session_data
+parent	include/linux/tee_client_api.h	/^		TEEC_SharedMemory *parent;$/;"	m	union:__anon20::__anon21
+platform_bl_deinit	armtz/tee_smc_xfer.c	/^static void platform_bl_deinit(tee_smc_xfer_ctl_t *ctl) { }$/;"	f	file:
+platform_bl_deinit	armtz/tee_smc_xfer.c	/^static void platform_bl_deinit(tee_smc_xfer_ctl_t *ctl)$/;"	f	file:
+platform_bl_init	armtz/tee_smc_xfer.c	/^static int platform_bl_init(tee_smc_xfer_ctl_t *ctl) { return 0; }$/;"	f	file:
+platform_bl_init	armtz/tee_smc_xfer.c	/^static int platform_bl_init(tee_smc_xfer_ctl_t *ctl)$/;"	f	file:
+platform_is_big_little	armtz/tee_smc_xfer.c	/^	bool platform_is_big_little;$/;"	m	struct:__anon36	file:
+print_to_kmsg	core/tee_procfs.c	/^static void print_to_kmsg(char *buf, uint32_t count)$/;"	f	file:
+priv	include/linux/tee_core.h	/^	void *priv;$/;"	m	struct:tee
+priv	include/linux/tee_core.h	/^	void *priv;$/;"	m	struct:tee_session
+ptr	include/linux/tee_client_api.h	/^		void *ptr;$/;"	m	union:__anon13::__anon16
+ptrs	armtz/handle.h	/^	void **ptrs;$/;"	m	struct:handle_db
+raw	armtz/tee_tz_op.h	/^	char raw[TEEC_STATUS_MSG_SIZE];$/;"	m	struct:tee_core_status_out
+raw_call_tee	include/linux/tee_core.h	/^	void (*raw_call_tee)(struct smc_param *p);$/;"	m	struct:tee_ops
+ref	include/linux/tee_core.h	/^    atomic_t ref;$/;"	m	struct:tee_shm_ns
+refcount	include/linux/tee_core.h	/^	atomic_t refcount;$/;"	m	struct:tee
+refcount	include/linux/tee_core.h	/^	struct kref refcount;$/;"	m	struct:tee_context	typeref:struct:tee_context::kref
+refcount_show	core/tee_sysfs.c	/^static ssize_t refcount_show(struct device *device,$/;"	f	file:
+register_outercache_mutex	armtz/tee_tz_drv.c	/^static int register_outercache_mutex(struct tee_tz *ptee, bool reg)$/;"	f	file:
+registered	include/linux/tee_client_api.h	/^	uint64_t registered;$/;"	m	struct:__anon13
+registered	include/linux/tee_ioc.h	/^	uint32_t registered;$/;"	m	struct:tee_shm_io
+rel_wr_sec_c	include/linux/tee_rpmb.h	/^	uint8_t rel_wr_sec_c;$/;"	m	struct:tee_rpmb_dev_info
+remove_entry	core/tee_procfs.c	/^static void remove_entry(void)$/;"	f	file:
+req_nr	armtz/tee_tz_drv.c	/^	uint32_t req_nr;$/;"	m	struct:tee_rpmb_cmd	file:
+reqsync	core/tee_supp_com.h	/^	struct mutex reqsync; \/* Request sync mutex *\/$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::mutex
+res	armtz/tee_tz_op.h	/^	uint32_t res;$/;"	m	struct:tee_msg_recv
+res	core/tee_supp_com.h	/^	uint32_t res;$/;"	m	struct:tee_rpc_invoke
+res	core/tee_supp_com.h	/^    int res;$/;"	m	struct:tee_rpc
+reserved	core/tee_supp_com.h	/^	int reserved;$/;"	m	struct:tee_rpc_cmd
+reserved	core/tee_supp_com.h	/^	uint32_t reserved;$/;"	m	struct:tee_rpc_invoke
+reserved	include/linux/tee_client_api.h	/^	uint32_t reserved;$/;"	m	struct:__anon13
+reserved	include/linux/tee_ioc.h	/^	int32_t reserved;$/;"	m	struct:tee_cmd_io
+reset_tee_cmd	core/tee_kernel_api.c	/^static void reset_tee_cmd(struct tee_cmd_io *cmd)$/;"	f	file:
+resp_nr	armtz/tee_tz_drv.c	/^	uint32_t resp_nr;$/;"	m	struct:tee_rpmb_cmd	file:
+resp_size	include/linux/tee_ioc.h	/^        uint32_t *resp_size;$/;"	m	union:tee_ta_inst_desc::__anon9
+resv	include/linux/tee_core.h	/^        struct tee_shm_resv resv;$/;"	m	union:tee_shm::__anon29	typeref:struct:tee_shm::__anon29::tee_shm_resv
+ret	include/arm_common/teesmc.h	/^	uint32_t ret;$/;"	m	struct:teesmc32_arg
+ret	include/arm_common/teesmc.h	/^	uint64_t ret;$/;"	m	struct:teesmc64_arg
+ret_code	include/linux/tee_rpmb.h	/^	uint8_t ret_code;$/;"	m	struct:tee_rpmb_dev_info
+ret_origin	include/arm_common/teesmc.h	/^	uint32_t ret_origin;$/;"	m	struct:teesmc32_arg
+ret_origin	include/arm_common/teesmc.h	/^	uint64_t ret_origin;$/;"	m	struct:teesmc64_arg
+ring_buffer_on_segment	core/tee_procfs.c	/^static bool ring_buffer_on_segment(uint32_t start, uint32_t count, uint32_t point)$/;"	f	file:
+rpc	include/linux/tee_core.h	/^	struct tee_rpc *rpc;$/;"	m	struct:tee	typeref:struct:tee::tee_rpc
+rpc_buffers	armtz/tee_tz_priv.h	/^	struct tee_rpc_bf *rpc_buffers;$/;"	m	struct:tee_tz	typeref:struct:tee_tz::tee_rpc_bf
+rpmb_exec	armtz/tee_tz_drv.c	/^int rpmb_exec(void *req)$/;"	f
+rpmb_size_mult	include/linux/tee_rpmb.h	/^	uint8_t rpmb_size_mult;$/;"	m	struct:tee_rpmb_dev_info
+sdb	include/linux/tee_core.h	/^    struct tee_shm_dma_buf *sdb;$/;"	m	struct:tee_shm_resv	typeref:struct:tee_shm_resv::tee_shm_dma_buf
+secext	armtz/Makefile	/^secext := $(call as-instr,.arch_extension sec,+sec)$/;"	m
+send_cmd_to_user	core/tee_session.c	/^static uint32_t send_cmd_to_user(uint32_t command_id)$/;"	f	file:
+service	armtz/tee_tz_op.h	/^	unsigned int service;$/;"	m	struct:tee_msg_send
+sess	armtz/tee_tz_op.h	/^	uint32_t sess;$/;"	m	struct:tee_cancel_command_data
+sess	armtz/tee_tz_op.h	/^	uint32_t sess;$/;"	m	struct:tee_close_session_data
+sess	armtz/tee_tz_op.h	/^	uint32_t sess;$/;"	m	struct:tee_invoke_command_data
+sess	armtz/tee_tz_op.h	/^	uint32_t sess;$/;"	m	struct:tee_open_session_recv
+sess	core/tee_session.c	/^	struct tee_session *sess;$/;"	m	struct:tui_obj	typeref:struct:tui_obj::tee_session	file:
+sessid	include/linux/tee_core.h	/^	uint32_t sessid;$/;"	m	struct:tee_session
+session	include/arm_common/teesmc.h	/^	uint32_t session;$/;"	m	struct:teesmc32_arg
+session	include/arm_common/teesmc.h	/^	uint64_t session;$/;"	m	struct:teesmc64_arg
+session	include/linux/tee_client_api.h	/^		TEEC_Session *session;$/;"	m	union:__anon27::__anon28
+set_params	armtz/tee_tz_drv.c	/^static void set_params(struct tee_tz *ptee,$/;"	f	file:
+sg_alloc_table_from_pages	core/tee_shm.c	/^int __weak sg_alloc_table_from_pages(struct sg_table *sgt,$/;"	f
+sg_nents	core/tee_shm.c	/^int __weak sg_nents(struct scatterlist *sg)$/;"	f
+sgt	core/tee_shm.c	/^	struct sg_table sgt;$/;"	m	struct:tee_shm_attach	typeref:struct:tee_shm_attach::sg_table	file:
+sgt	include/linux/tee_core.h	/^	struct sg_table *sgt;$/;"	m	struct:tee_shm_dma_buf	typeref:struct:tee_shm_dma_buf::sg_table
+sgt	include/linux/tee_core.h	/^    struct sg_table sgt;$/;"	m	struct:tee_shm_resv	typeref:struct:tee_shm_resv::sg_table
+shm	core/tee_supp_com.h	/^	void *shm;	\/* pointer to an opaque data, being shm structure *\/$/;"	m	struct:tee_rpc_alloc
+shm	core/tee_supp_com.h	/^	void *shm;	\/* pointer to an opaque data, being shm structure *\/$/;"	m	struct:tee_rpc_free
+shm	include/linux/tee_core.h	/^		struct tee_shm *shm;$/;"	m	union:tee_data::__anon30	typeref:struct:tee_data::__anon30::tee_shm
+shm_cached	armtz/tee_tz_priv.h	/^	bool shm_cached;$/;"	m	struct:tee_tz
+shm_flags	include/linux/tee_core.h	/^	uint32_t shm_flags;	\/* supported flags for shm allocation *\/$/;"	m	struct:tee
+shm_handle_db	armtz/tee_tz_drv.c	/^static struct handle_db shm_handle_db = HANDLE_DB_INITIALIZER;$/;"	v	typeref:struct:handle_db	file:
+shm_inc_ref	include/linux/tee_core.h	/^	int (*shm_inc_ref)(struct tee_shm *shm);$/;"	m	struct:tee_ops
+shm_paddr	armtz/tee_tz_priv.h	/^	unsigned long shm_paddr;$/;"	m	struct:tee_tz
+shm_pool	armtz/tee_mem.c	/^struct shm_pool {$/;"	s	file:
+shm_pool	armtz/tee_tz_priv.h	/^	struct shm_pool *shm_pool;$/;"	m	struct:tee_tz	typeref:struct:tee_tz::shm_pool
+shm_test_nonsecure	core/tee_shm.h	/^static inline int shm_test_nonsecure(uint32_t flags) { return flags & TEEC_MEM_NONSECURE; }$/;"	f
+shm_vaddr	armtz/tee_tz_priv.h	/^	void *shm_vaddr;$/;"	m	struct:tee_tz
+size	armtz/tee_mem.c	/^	size_t size;		\/* Size of pool\/heap memory segment *\/$/;"	m	struct:shm_pool	file:
+size	armtz/tee_mem.c	/^	size_t size;$/;"	m	struct:mem_chunk	file:
+size	core/tee_supp_com.h	/^	uint32_t size;	\/* size of block *\/$/;"	m	struct:tee_rpc_alloc
+size	core/tee_supp_com.h	/^	uint32_t size;$/;"	m	struct:tee_rpc_cmd
+size	include/arm_common/teesmc.h	/^	uint32_t size;$/;"	m	struct:teesmc32_param_memref
+size	include/arm_common/teesmc.h	/^	uint64_t size;$/;"	m	struct:teesmc64_param_memref
+size	include/linux/tee_client_api.h	/^		size_t size;$/;"	m	union:__anon13::__anon15
+size	include/linux/tee_client_api.h	/^		size_t size;$/;"	m	union:__anon17::__anon19
+size	include/linux/tee_client_api.h	/^		size_t size;$/;"	m	union:__anon20::__anon22
+size	include/linux/tee_ioc.h	/^	uint32_t size;$/;"	m	struct:tee_shm_io
+size_alloc	include/linux/tee_core.h	/^	size_t size_alloc;$/;"	m	struct:tee_shm
+size_req	include/linux/tee_core.h	/^	size_t size_req;$/;"	m	struct:tee_shm
+smc_param	include/linux/tee_kernel_lowlevel_api.h	/^struct smc_param {$/;"	s
+smc_xfer	armtz/tee_smc_xfer.c	/^inline void smc_xfer(struct smc_param *p)$/;"	f
+smc_xfer_cmd_t	armtz/tee_smc_xfer.c	/^} smc_xfer_cmd_t;$/;"	t	typeref:struct:__anon34	file:
+smc_xfer_thread_t	armtz/tee_smc_xfer.c	/^} smc_xfer_thread_t;$/;"	t	typeref:struct:__anon35	file:
+smc_xfer_timeout_us	armtz/tee_smc_xfer.c	/^static const s64 smc_xfer_timeout_us = 2000LL;$/;"	v	file:
+start	include/linux/tee_core.h	/^	int (*start)(struct tee *tee);$/;"	m	struct:tee_ops
+started	armtz/tee_tz_priv.h	/^	bool started;$/;"	m	struct:tee_tz
+started	include/linux/tee_client_api.h	/^	uint32_t started;$/;"	m	struct:__anon27
+stat_show	core/tee_sysfs.c	/^static ssize_t stat_show(struct device *device,$/;"	f	file:
+state	core/tee_supp_com.h	/^	uint32_t state;$/;"	m	struct:tee_rpc_bf
+state	include/linux/tee_core.h	/^	unsigned int state;$/;"	m	struct:tee
+stats	include/linux/tee_core.h	/^	struct tee_stats_entry stats[3];$/;"	m	struct:tee	typeref:struct:tee::tee_stats_entry
+status	core/tee_session.c	/^	uint32_t status;$/;"	m	struct:tui_obj	file:
+stdcall_tee	armtz/tee_tz_drv.c	/^static inline void stdcall_tee(struct tee_tz *ptee, uintptr_t parg32, struct teesmc32_arg *arg32)$/;"	f	file:
+stop	include/linux/tee_core.h	/^	int (*stop)(struct tee *tee);$/;"	m	struct:tee_ops
+str	core/tee_procfs.c	48;"	d	file:
+t_issw_service_id	armtz/tee_tz_op.h	/^enum t_issw_service_id {$/;"	g
+ta	armtz/tee_tz_op.h	/^	struct ta_signed_header_t *ta;$/;"	m	struct:tee_open_session_data	typeref:struct:tee_open_session_data::ta_signed_header_t
+ta	include/linux/tee_core.h	/^	struct tee_shm *ta;$/;"	m	struct:tee_cmd	typeref:struct:tee_cmd::tee_shm
+ta_buf	include/linux/tee_ioc.h	/^        void __user *ta_buf;$/;"	m	union:tee_ta_inst_desc::__anon8
+ta_buf_size	include/linux/tee_ioc.h	/^    uint32_t ta_buf_size;$/;"	m	struct:tee_ta_inst_desc
+ta_func	include/arm_common/teesmc.h	/^	uint32_t ta_func;$/;"	m	struct:teesmc32_arg
+ta_func	include/arm_common/teesmc.h	/^	uint64_t ta_func;$/;"	m	struct:teesmc64_arg
+tee	armtz/tee_tz_priv.h	/^	struct tee *tee;$/;"	m	struct:tee_tz	typeref:struct:tee_tz::tee
+tee	include/linux/tee_core.h	/^	struct tee *tee;$/;"	m	struct:tee_context	typeref:struct:tee_context::tee
+tee	include/linux/tee_core.h	/^	struct tee *tee;$/;"	m	struct:tee_shm	typeref:struct:tee_shm::tee
+tee	include/linux/tee_core.h	/^struct tee {$/;"	s
+tee_allocated	include/linux/tee_core.h	/^	bool tee_allocated;$/;"	m	struct:tee_shm_dma_buf
+tee_buf_addr	core/tee_procfs.c	/^        unsigned int tee_buf_addr;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_buf_len	core/tee_procfs.c	/^static unsigned int tee_buf_len;$/;"	v	file:
+tee_buf_phy_ctl	core/tee_procfs.c	/^static unsigned long tee_buf_phy_ctl;$/;"	v	file:
+tee_buf_size	core/tee_procfs.c	/^        unsigned int tee_buf_size;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_buf_unread_size	core/tee_procfs.c	/^        unsigned int tee_buf_unread_size;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_buf_vir_ctl	core/tee_procfs.c	/^static tee_log_ctrl_t *tee_buf_vir_ctl;$/;"	v	file:
+tee_cancel_awake	core/pm.c	/^static void tee_cancel_awake(void)$/;"	f	file:
+tee_cancel_command_data	armtz/tee_tz_op.h	/^struct tee_cancel_command_data {$/;"	s
+tee_cancel_command_send	armtz/tee_tz_op.h	/^struct tee_cancel_command_send {$/;"	s
+tee_cleanup_sysfs	core/tee_sysfs.c	/^void tee_cleanup_sysfs(struct tee *tee)$/;"	f
+tee_clk_fn	include/linux/tee_clkmgr.h	/^typedef void (* tee_clk_fn) (void);$/;"	t
+tee_clk_fn_0	core/tee_clkmgr.c	/^typedef void (* tee_clk_fn_0) (void);$/;"	t	file:
+tee_clk_fn_1	core/tee_clkmgr.c	/^typedef void (* tee_clk_fn_1) (void *);$/;"	t	file:
+tee_clk_fn_2	core/tee_clkmgr.c	/^typedef void (* tee_clk_fn_2) (void *, void *);$/;"	t	file:
+tee_clk_fn_3	core/tee_clkmgr.c	/^typedef void (* tee_clk_fn_3) (void *, void *, void *);$/;"	t	file:
+tee_clkmgr_exit	core/tee_clkmgr.c	/^void tee_clkmgr_exit(void)$/;"	f
+tee_clkmgr_handle	core/tee_clkmgr.c	/^EXPORT_SYMBOL(tee_clkmgr_handle);$/;"	v
+tee_clkmgr_handle	core/tee_clkmgr.c	/^int tee_clkmgr_handle(uint32_t token, uint32_t op, uint32_t __used arg)$/;"	f
+tee_clkmgr_init	core/tee_clkmgr.c	/^int tee_clkmgr_init(void)$/;"	f
+tee_clkmgr_register	core/tee_clkmgr.c	/^EXPORT_SYMBOL(tee_clkmgr_register);$/;"	v
+tee_clkmgr_register	core/tee_clkmgr.c	/^int tee_clkmgr_register(const char *clkname, int id, tee_clk_fn e, tee_clk_fn d,$/;"	f
+tee_clkmgr_register0	include/linux/tee_clkmgr.h	19;"	d
+tee_clkmgr_register1	include/linux/tee_clkmgr.h	23;"	d
+tee_clkmgr_register2	include/linux/tee_clkmgr.h	27;"	d
+tee_clkmgr_register3	include/linux/tee_clkmgr.h	31;"	d
+tee_clkmgr_type	core/tee_clkmgr_priv.h	/^enum tee_clkmgr_type {$/;"	g
+tee_close_session_data	armtz/tee_tz_op.h	/^struct tee_close_session_data {$/;"	s
+tee_close_session_send	armtz/tee_tz_op.h	/^struct tee_close_session_send {$/;"	s
+tee_cmd	include/linux/tee_core.h	/^struct tee_cmd {$/;"	s
+tee_cmd_io	include/linux/tee_ioc.h	/^struct tee_cmd_io {$/;"	s
+tee_context	include/linux/tee_core.h	/^struct tee_context {$/;"	s
+tee_context_alloc_shm_tmp	core/tee_context.c	/^struct tee_shm *tee_context_alloc_shm_tmp(struct tee_context *ctx,$/;"	f
+tee_context_copy_from_client	core/tee_context.c	/^int tee_context_copy_from_client(const struct tee_context *ctx,$/;"	f
+tee_context_create	core/tee_context.c	/^struct tee_context *tee_context_create(struct tee *tee)$/;"	f
+tee_context_create_tmpref_buffer	core/tee_context.c	/^struct tee_shm *tee_context_create_tmpref_buffer(struct tee_context *ctx,$/;"	f
+tee_context_destroy	core/tee_context.c	/^void tee_context_destroy(struct tee_context *ctx)$/;"	f
+tee_context_dump	core/tee_context.c	/^int tee_context_dump(struct tee *tee, char *buff, size_t len)$/;"	f
+tee_context_get	core/tee_context.c	/^void tee_context_get(struct tee_context *ctx)$/;"	f
+tee_context_put	core/tee_context.c	/^void tee_context_put(struct tee_context *ctx)$/;"	f
+tee_copy_from_user	core/tee_session.c	/^static int tee_copy_from_user(struct tee_context *ctx, void *to, void *from,$/;"	f	file:
+tee_copy_to_user	core/tee_session.c	/^static int tee_copy_to_user(struct tee_context *ctx, void *to, void *from,$/;"	f	file:
+tee_core_add	core/tee_core.c	/^EXPORT_SYMBOL(tee_core_add);$/;"	v
+tee_core_add	core/tee_core.c	/^int tee_core_add(struct tee *tee)$/;"	f
+tee_core_alloc	core/tee_core.c	/^EXPORT_SYMBOL(tee_core_alloc);$/;"	v
+tee_core_alloc	core/tee_core.c	/^struct tee *tee_core_alloc(struct device *dev, char *name, int id,$/;"	f
+tee_core_alloc_uuid	core/tee_core.c	/^int tee_core_alloc_uuid(void *ptr)$/;"	f
+tee_core_del	core/tee_core.c	/^EXPORT_SYMBOL(tee_core_del);$/;"	v
+tee_core_del	core/tee_core.c	/^int tee_core_del(struct tee *tee)$/;"	f
+tee_core_exit	core/tee_core.c	/^module_exit(tee_core_exit);$/;"	v
+tee_core_exit	core/tee_core.c	/^static void __exit tee_core_exit(void)$/;"	f	file:
+tee_core_free	core/tee_core.c	/^EXPORT_SYMBOL(tee_core_free);$/;"	v
+tee_core_free	core/tee_core.c	/^int tee_core_free(struct tee *tee)$/;"	f
+tee_core_free_uuid	core/tee_core.c	/^void tee_core_free_uuid(int id)$/;"	f
+tee_core_init	core/tee_core.c	/^module_init(tee_core_init);$/;"	v
+tee_core_init	core/tee_core.c	/^rootfs_initcall(tee_core_init);$/;"	v
+tee_core_init	core/tee_core.c	/^static int __init tee_core_init(void)$/;"	f	file:
+tee_core_status_out	armtz/tee_tz_op.h	/^struct tee_core_status_out {$/;"	s
+tee_core_uuid2ptr	core/tee_core.c	/^void *tee_core_uuid2ptr(int id)$/;"	f
+tee_cpu_callback	armtz/tee_smc_xfer.c	/^static int tee_cpu_callback(struct notifier_block *self,$/;"	f	file:
+tee_cpu_notifier	armtz/tee_smc_xfer.c	/^	struct notifier_block tee_cpu_notifier;$/;"	m	struct:__anon36	typeref:struct:__anon36::notifier_block	file:
+tee_ctx_open	core/tee_core.c	/^static int tee_ctx_open(struct inode *inode, struct file *filp)$/;"	f	file:
+tee_ctx_release	core/tee_core.c	/^static int tee_ctx_release(struct inode *inode, struct file *filp)$/;"	f	file:
+tee_data	include/linux/tee_core.h	/^struct tee_data {$/;"	s
+tee_dec_stats	core/tee_core.c	/^void tee_dec_stats(struct tee_stats_entry *entry)$/;"	f
+tee_do_cancel_cmd	core/tee_session.c	/^static int tee_do_cancel_cmd(struct tee_session *sess,$/;"	f	file:
+tee_do_create_session	core/tee_core.c	/^static int tee_do_create_session(struct tee_context *ctx,$/;"	f	file:
+tee_do_get_fd_for_rpc_shm	core/tee_core.c	/^static int tee_do_get_fd_for_rpc_shm(struct tee_context *ctx,$/;"	f	file:
+tee_do_invoke_command	core/tee_session.c	/^static int tee_do_invoke_command(struct tee_session *sess,$/;"	f	file:
+tee_do_kernel_cancel_cmd	core/tee_session.c	/^static int tee_do_kernel_cancel_cmd(struct tee_session *sess,$/;"	f	file:
+tee_do_shm_alloc	core/tee_core.c	/^static int tee_do_shm_alloc(struct tee_context *ctx,$/;"	f	file:
+tee_do_shm_alloc_perm	core/tee_core.c	/^static int tee_do_shm_alloc_perm(struct tee_context *ctx,$/;"	f	file:
+tee_exit_procfs	core/tee_procfs.c	/^void tee_exit_procfs(void)$/;"	f
+tee_exit_smc_xfer	armtz/tee_smc_xfer.c	/^void tee_exit_smc_xfer(void)$/;"	f
+tee_fops	core/tee_core.c	/^const struct file_operations tee_fops = {$/;"	v	typeref:struct:file_operations
+tee_fp_disable_spi_clk	core/tee_fp.c	/^EXPORT_SYMBOL(tee_fp_disable_spi_clk);$/;"	v
+tee_fp_disable_spi_clk	core/tee_fp.c	/^void tee_fp_disable_spi_clk(void)$/;"	f
+tee_fp_enable_spi_clk	core/tee_fp.c	/^EXPORT_SYMBOL(tee_fp_enable_spi_clk);$/;"	v
+tee_fp_enable_spi_clk	core/tee_fp.c	/^void tee_fp_enable_spi_clk(void)$/;"	f
+tee_fp_exit	core/tee_fp.c	/^void tee_fp_exit(void)$/;"	f
+tee_fp_init	core/tee_fp.c	/^int tee_fp_init(void)$/;"	f
+tee_get	core/tee_core.c	/^int tee_get(struct tee *tee)$/;"	f
+tee_get_l2cc_mutex_recv	armtz/tee_tz_op.h	/^struct tee_get_l2cc_mutex_recv {$/;"	s
+tee_get_l2cc_mutex_send	armtz/tee_tz_op.h	/^struct tee_get_l2cc_mutex_send {$/;"	s
+tee_get_tee	core/tee_core.c	/^struct tee *tee_get_tee(const char *devname)$/;"	f
+tee_identity	armtz/tee_tz_op.h	/^struct tee_identity {$/;"	s
+tee_idr	core/tee_core.c	/^static struct idr tee_idr;$/;"	v	typeref:struct:idr	file:
+tee_idr_lock	core/tee_core.c	/^static spinlock_t tee_idr_lock;$/;"	v	file:
+tee_inc_stats	core/tee_core.c	/^void tee_inc_stats(struct tee_stats_entry *entry)$/;"	f
+tee_init_procfs	core/tee_procfs.c	/^int tee_init_procfs(struct tee *tee)$/;"	f
+tee_init_smc_xfer	armtz/tee_smc_xfer.c	/^int tee_init_smc_xfer(void)$/;"	f
+tee_init_sysfs	core/tee_sysfs.c	/^int tee_init_sysfs(struct tee *tee)$/;"	f
+tee_install_sys_ta	core/tee_ta_mgmt.c	/^int tee_install_sys_ta(struct tee *tee, struct tee_ta_inst_desc *tee_ta_inst_desc)$/;"	f
+tee_invoke_command_data	armtz/tee_tz_op.h	/^struct tee_invoke_command_data {$/;"	s
+tee_invoke_command_recv	armtz/tee_tz_op.h	/^struct tee_invoke_command_recv {$/;"	s
+tee_invoke_command_send	armtz/tee_tz_op.h	/^struct tee_invoke_command_send {$/;"	s
+tee_ioctl	core/tee_core.c	/^static long tee_ioctl(struct file *filp, unsigned int cmd, unsigned long arg)$/;"	f	file:
+tee_irq_count	core/tee_procfs.c	/^        unsigned int tee_irq_count;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_keep_awake	core/pm.c	/^static void tee_keep_awake(void)$/;"	f	file:
+tee_log_area	core/tee_procfs.c	/^char *tee_log_area;$/;"	v
+tee_log_buf	core/tee_procfs.c	/^char *tee_log_buf;$/;"	v
+tee_log_ctrl	core/tee_procfs.c	/^typedef union tee_log_ctrl$/;"	u	file:
+tee_log_ctrl_t	core/tee_procfs.c	/^} tee_log_ctrl_t;$/;"	t	typeref:union:tee_log_ctrl	file:
+tee_log_len	core/tee_procfs.c	/^static unsigned int tee_log_len;$/;"	v	file:
+tee_log_lock	core/tee_procfs.c	/^static void tee_log_lock(void)$/;"	f	file:
+tee_log_open	core/tee_procfs.c	/^int tee_log_open(struct inode *inode, struct file *file)$/;"	f
+tee_log_read	core/tee_procfs.c	/^static ssize_t tee_log_read(struct file *file, char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+tee_log_release	core/tee_procfs.c	/^int tee_log_release(struct inode *inode, struct file *file)$/;"	f
+tee_log_unlock	core/tee_procfs.c	/^static void tee_log_unlock(void)$/;"	f	file:
+tee_log_vir_addr	core/tee_procfs.c	/^static unsigned char *tee_log_vir_addr;$/;"	v	file:
+tee_log_write	core/tee_procfs.c	/^static ssize_t tee_log_write(struct file *filp, const char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+tee_map_cached_shm	core/tee_core.c	/^EXPORT_SYMBOL(tee_map_cached_shm);$/;"	v
+tee_map_cached_shm	core/tee_core.c	/^void *tee_map_cached_shm(unsigned long pa, size_t len)$/;"	f
+tee_msg_recv	armtz/tee_tz_op.h	/^struct tee_msg_recv {$/;"	s
+tee_msg_send	armtz/tee_tz_op.h	/^struct tee_msg_send {$/;"	s
+tee_mutex_wait	core/tee_mutex_wait.c	/^struct tee_mutex_wait {$/;"	s	file:
+tee_mutex_wait_delete	core/tee_mutex_wait.c	/^EXPORT_SYMBOL(tee_mutex_wait_delete);$/;"	v
+tee_mutex_wait_delete	core/tee_mutex_wait.c	/^void tee_mutex_wait_delete(struct device *dev,$/;"	f
+tee_mutex_wait_delete_entry	core/tee_mutex_wait.c	/^static void tee_mutex_wait_delete_entry(struct tee_mutex_wait *w)$/;"	f	file:
+tee_mutex_wait_exit	core/tee_mutex_wait.c	/^EXPORT_SYMBOL(tee_mutex_wait_exit);$/;"	v
+tee_mutex_wait_exit	core/tee_mutex_wait.c	/^void tee_mutex_wait_exit(struct tee_mutex_wait_private *priv)$/;"	f
+tee_mutex_wait_get	core/tee_mutex_wait.c	/^static struct tee_mutex_wait *tee_mutex_wait_get(struct device *dev,$/;"	f	file:
+tee_mutex_wait_init	core/tee_mutex_wait.c	/^EXPORT_SYMBOL(tee_mutex_wait_init);$/;"	v
+tee_mutex_wait_init	core/tee_mutex_wait.c	/^int tee_mutex_wait_init(struct tee_mutex_wait_private *priv)$/;"	f
+tee_mutex_wait_private	core/tee_mutex_wait.h	/^struct tee_mutex_wait_private {$/;"	s
+tee_mutex_wait_sleep	core/tee_mutex_wait.c	/^EXPORT_SYMBOL(tee_mutex_wait_sleep);$/;"	v
+tee_mutex_wait_sleep	core/tee_mutex_wait.c	/^void tee_mutex_wait_sleep(struct device *dev,$/;"	f
+tee_mutex_wait_wakeup	core/tee_mutex_wait.c	/^EXPORT_SYMBOL(tee_mutex_wait_wakeup);$/;"	v
+tee_mutex_wait_wakeup	core/tee_mutex_wait.c	/^void tee_mutex_wait_wakeup(struct device *dev,$/;"	f
+tee_ns_shm_export	core/tee_shm.c	/^static int tee_ns_shm_export(struct tee *tee, struct tee_shm *shm, int *export)$/;"	f	file:
+tee_ns_shm_fops	core/tee_shm.c	/^static const struct file_operations tee_ns_shm_fops = {$/;"	v	typeref:struct:file_operations	file:
+tee_ns_shm_inc_ref	core/tee_shm.c	/^static int tee_ns_shm_inc_ref(struct tee_shm *shm)$/;"	f	file:
+tee_ns_shm_vm_ops	core/tee_shm.c	/^static const struct vm_operations_struct tee_ns_shm_vm_ops = {$/;"	v	typeref:struct:vm_operations_struct	file:
+tee_open_session_data	armtz/tee_tz_op.h	/^struct tee_open_session_data {$/;"	s
+tee_open_session_recv	armtz/tee_tz_op.h	/^struct tee_open_session_recv {$/;"	s
+tee_open_session_send	armtz/tee_tz_op.h	/^struct tee_open_session_send {$/;"	s
+tee_ops	include/linux/tee_core.h	/^struct tee_ops {$/;"	s
+tee_plt_device_release	core/tee_core.c	/^static void tee_plt_device_release(struct device *dev)$/;"	f	file:
+tee_pm_sec_call	include/linux/tee_pm_sec_call.h	/^static void tee_pm_sec_call(u32 cmd, u32 p0, u32 p1, u32 p2)$/;"	f
+tee_pm_suspend_notifier	core/pm.c	/^static int tee_pm_suspend_notifier(struct notifier_block *nb, unsigned long event, void *dummy)$/;"	f	file:
+tee_post_suspend	core/pm.c	/^static void tee_post_suspend(void)$/;"	f	file:
+tee_prepare_suspend	core/pm.c	/^static void tee_prepare_suspend(void)$/;"	f	file:
+tee_proc_dir	core/tee_procfs.c	/^struct proc_dir_entry *tee_proc_dir;$/;"	v	typeref:struct:proc_dir_entry
+tee_proc_drv_version	core/tee_procfs.c	/^struct proc_dir_entry *tee_proc_drv_version;$/;"	v	typeref:struct:proc_dir_entry
+tee_proc_enable_log	core/tee_procfs.c	/^static bool tee_proc_enable_log = true;$/;"	v	file:
+tee_proc_log_file	core/tee_procfs.c	/^struct proc_dir_entry *tee_proc_log_file;$/;"	v	typeref:struct:proc_dir_entry
+tee_proc_tee_version	core/tee_procfs.c	/^struct proc_dir_entry *tee_proc_tee_version;$/;"	v	typeref:struct:proc_dir_entry
+tee_proc_teed_version	core/tee_procfs.c	/^struct proc_dir_entry *tee_proc_teed_version;$/;"	v	typeref:struct:proc_dir_entry
+tee_proc_trace	core/tee_procfs.c	/^struct proc_dir_entry *tee_proc_trace;$/;"	v	typeref:struct:proc_dir_entry
+tee_put	core/tee_core.c	/^int tee_put(struct tee *tee)$/;"	f
+tee_put_user	core/tee_session.c	93;"	d	file:
+tee_read_pos	core/tee_procfs.c	/^        unsigned int tee_read_pos;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_read_seq	core/tee_procfs.c	/^		unsigned int tee_read_seq;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_reader_alive	core/tee_procfs.c	/^        unsigned int tee_reader_alive;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_register_irqfwd_recv	armtz/tee_tz_op.h	/^struct tee_register_irqfwd_recv {$/;"	s
+tee_register_irqfwd_send	armtz/tee_tz_op.h	/^struct tee_register_irqfwd_send {$/;"	s
+tee_register_rpc_send	armtz/tee_tz_op.h	/^struct tee_register_rpc_send {$/;"	s
+tee_register_rpc_send_data	armtz/tee_tz_op.h	/^struct tee_register_rpc_send_data {$/;"	s
+tee_register_spi_clk	core/tee_fp.c	/^EXPORT_SYMBOL(tee_register_spi_clk);$/;"	v
+tee_register_spi_clk	core/tee_fp.c	/^int tee_register_spi_clk(void (*enable_fn) (void), void (*disable_fn) (void))$/;"	f
+tee_register_spi_clk	core/tee_fp.c	/^int tee_register_spi_clk(void)$/;"	f
+tee_rpc	core/tee_supp_com.h	/^struct tee_rpc {$/;"	s
+tee_rpc_alloc	core/tee_supp_com.h	/^struct tee_rpc_alloc {$/;"	s
+tee_rpc_bf	core/tee_supp_com.h	/^struct tee_rpc_bf {$/;"	s
+tee_rpc_cmd	core/tee_supp_com.h	/^struct tee_rpc_cmd {$/;"	s
+tee_rpc_free	core/tee_supp_com.h	/^struct tee_rpc_free {$/;"	s
+tee_rpc_invoke	core/tee_supp_com.h	/^struct tee_rpc_invoke {$/;"	s
+tee_rpmb_cmd	armtz/tee_tz_drv.c	/^struct tee_rpmb_cmd$/;"	s	file:
+tee_rpmb_dev_info	include/linux/tee_rpmb.h	/^struct tee_rpmb_dev_info {$/;"	s
+tee_session	include/linux/tee_core.h	/^struct tee_session {$/;"	s
+tee_session_cancel_be	core/tee_session.c	/^static int tee_session_cancel_be(struct tee_session *sess,$/;"	f	file:
+tee_session_close_and_destroy	core/tee_session.c	/^int tee_session_close_and_destroy(struct tee_session *sess)$/;"	f
+tee_session_close_be	core/tee_session.c	/^static int tee_session_close_be(struct tee_session *sess)$/;"	f	file:
+tee_session_create_and_open	core/tee_session.c	/^struct tee_session *tee_session_create_and_open(struct tee_context *ctx,$/;"	f
+tee_session_create_fd	core/tee_session.c	/^int tee_session_create_fd(struct tee_context *ctx, struct tee_cmd_io *cmd_io)$/;"	f
+tee_session_fops	core/tee_session.c	/^const struct file_operations tee_session_fops = {$/;"	v	typeref:struct:file_operations
+tee_session_invoke_be	core/tee_session.c	/^int tee_session_invoke_be(struct tee_session *sess, struct tee_cmd_io *cmd_io)$/;"	f
+tee_session_ioctl	core/tee_session.c	/^static long tee_session_ioctl(struct file *filp, unsigned int cmd,$/;"	f	file:
+tee_session_is_opened	core/tee_session.c	/^static inline int tee_session_is_opened(struct tee_session *sess)$/;"	f	file:
+tee_session_is_supported_type	core/tee_session.c	/^static bool tee_session_is_supported_type(struct tee_session *sess, int type)$/;"	f	file:
+tee_session_open_be	core/tee_session.c	/^static int tee_session_open_be(struct tee_session *sess,$/;"	f	file:
+tee_session_release	core/tee_session.c	/^static int tee_session_release(struct inode *inode, struct file *filp)$/;"	f	file:
+tee_shm	include/linux/tee_core.h	/^struct tee_shm {$/;"	s
+tee_shm_alloc	core/tee_shm.c	/^struct tee_shm *tee_shm_alloc(struct tee *tee, size_t size, uint32_t flags)$/;"	f
+tee_shm_alloc_from_rpc	core/tee_shm.c	/^struct tee_shm *tee_shm_alloc_from_rpc(struct tee *tee, size_t size, uint32_t extra_flags)$/;"	f
+tee_shm_alloc_io	core/tee_shm.c	/^int tee_shm_alloc_io(struct tee_context *ctx, struct tee_shm_io *shm_io)$/;"	f
+tee_shm_alloc_io_perm	core/tee_shm.c	/^int tee_shm_alloc_io_perm(struct tee_context *ctx, struct tee_shm_io *shm_io)$/;"	f
+tee_shm_alloc_ns	core/tee_shm.c	/^static struct tee_shm *tee_shm_alloc_ns(struct tee *tee, size_t size, uint32_t flags)$/;"	f	file:
+tee_shm_alloc_static	core/tee_shm.c	/^static struct tee_shm *tee_shm_alloc_static(struct tee *tee, size_t size, uint32_t flags)$/;"	f	file:
+tee_shm_attach	core/tee_shm.c	/^struct tee_shm_attach {$/;"	s	file:
+tee_shm_db_get	core/tee_shm.c	/^static int tee_shm_db_get(struct tee *tee, struct tee_shm *shm, int fd,$/;"	f	file:
+tee_shm_dma_buf	include/linux/tee_core.h	/^struct tee_shm_dma_buf {$/;"	s
+tee_shm_fd_for_rpc	core/tee_shm.c	/^int tee_shm_fd_for_rpc(struct tee_context *ctx, struct tee_shm_io *shm_io)$/;"	f
+tee_shm_free	core/tee_shm.c	/^void tee_shm_free(struct tee_shm *shm)$/;"	f
+tee_shm_free_from_rpc	core/tee_shm.c	/^void tee_shm_free_from_rpc(struct tee_shm *shm)$/;"	f
+tee_shm_free_io	core/tee_shm.c	/^void tee_shm_free_io(struct tee_shm *shm)$/;"	f
+tee_shm_free_ns	core/tee_shm.c	/^void tee_shm_free_ns(struct tee_shm *shm)$/;"	f
+tee_shm_get	core/tee_shm.c	/^struct tee_shm *tee_shm_get(struct tee_context *ctx, TEEC_SharedMemory *c_shm,$/;"	f
+tee_shm_io	include/linux/tee_ioc.h	/^struct tee_shm_io {$/;"	s
+tee_shm_ns	include/linux/tee_core.h	/^struct tee_shm_ns {$/;"	s
+tee_shm_pool_alloc	armtz/tee_mem.c	/^unsigned long tee_shm_pool_alloc(struct device *dev,$/;"	f
+tee_shm_pool_create	armtz/tee_mem.c	/^struct shm_pool *tee_shm_pool_create(struct device *dev, size_t shm_size,$/;"	f
+tee_shm_pool_destroy	armtz/tee_mem.c	/^void tee_shm_pool_destroy(struct device *dev, struct shm_pool *pool)$/;"	f
+tee_shm_pool_dump	armtz/tee_mem.c	/^void tee_shm_pool_dump(struct device *dev, struct shm_pool *pool, bool forced)$/;"	f
+tee_shm_pool_free	armtz/tee_mem.c	/^int tee_shm_pool_free(struct device *dev, struct shm_pool *pool,$/;"	f
+tee_shm_pool_incref	armtz/tee_mem.c	/^bool tee_shm_pool_incref(struct device *dev, struct shm_pool *pool,$/;"	f
+tee_shm_pool_is_cached	armtz/tee_mem.c	/^bool tee_shm_pool_is_cached(struct shm_pool *pool)$/;"	f
+tee_shm_pool_p2v	armtz/tee_mem.c	/^void *tee_shm_pool_p2v(struct device *dev, struct shm_pool *pool,$/;"	f
+tee_shm_pool_reset	armtz/tee_mem.c	/^void tee_shm_pool_reset(struct device *dev, struct shm_pool *pool)$/;"	f
+tee_shm_pool_set_cached	armtz/tee_mem.c	/^void tee_shm_pool_set_cached(struct shm_pool *pool)$/;"	f
+tee_shm_pool_v2p	armtz/tee_mem.c	/^unsigned long tee_shm_pool_v2p(struct device *dev, struct shm_pool *pool,$/;"	f
+tee_shm_put	core/tee_shm.c	/^void tee_shm_put(struct tee_context *ctx, struct tee_shm *shm)$/;"	f
+tee_shm_resv	include/linux/tee_core.h	/^struct tee_shm_resv {$/;"	s
+tee_show_state	core/tee_sysfs.c	/^static ssize_t tee_show_state(struct device *device,$/;"	f	file:
+tee_smc_daemon	armtz/tee_smc_xfer.c	/^static int tee_smc_daemon(void *data)$/;"	f	file:
+tee_smc_work	armtz/tee_smc_xfer.c	/^static void tee_smc_work(tee_smc_xfer_ctl_t *ctl, struct smc_param *p)$/;"	f	file:
+tee_smc_work_bl	armtz/tee_smc_xfer.c	/^static void tee_smc_work_bl(tee_smc_xfer_ctl_t *ctl, bool big, smc_xfer_cmd_t *cmd)$/;"	f	file:
+tee_smc_xfer_ctl	armtz/tee_smc_xfer.c	/^static tee_smc_xfer_ctl_t tee_smc_xfer_ctl;$/;"	v	file:
+tee_smc_xfer_ctl_t	armtz/tee_smc_xfer.c	/^} tee_smc_xfer_ctl_t;$/;"	t	typeref:struct:__anon36	file:
+tee_spi_cfg_padsel	core/tee_fp.c	/^int tee_spi_cfg_padsel(uint32_t padsel)$/;"	f
+tee_spi_transfer	core/tee_fp.c	/^EXPORT_SYMBOL(tee_spi_transfer);$/;"	v
+tee_spi_transfer	core/tee_fp.c	/^int tee_spi_transfer(void *conf, uint32_t conf_size, void *inbuf, void *outbuf, uint32_t size)$/;"	f
+tee_spi_transfer_disable	core/tee_fp.c	/^EXPORT_SYMBOL(tee_spi_transfer_disable);$/;"	v
+tee_spi_transfer_disable	core/tee_fp.c	/^int tee_spi_transfer_disable(void)$/;"	f
+tee_state	include/linux/tee_core.h	/^enum tee_state {$/;"	g
+tee_state_string	core/tee_sysfs.c	/^static const char *const tee_state_string[] = {$/;"	v	file:
+tee_static_shm_dma_buf_ops	core/tee_shm.c	/^static const struct dma_buf_ops tee_static_shm_dma_buf_ops = {$/;"	v	typeref:struct:dma_buf_ops	file:
+tee_static_shm_export	core/tee_shm.c	/^static int tee_static_shm_export(struct tee *tee, struct tee_shm *shm, int *export)$/;"	f	file:
+tee_stats_entry	include/linux/tee_core.h	/^struct tee_stats_entry {$/;"	s
+tee_supp_cmd	core/tee_supp_com.c	/^EXPORT_SYMBOL(tee_supp_cmd);$/;"	v
+tee_supp_cmd	core/tee_supp_com.c	/^enum teec_rpc_result tee_supp_cmd(struct tee *tee,$/;"	f
+tee_supp_deinit	core/tee_supp_com.c	/^void tee_supp_deinit(struct tee *tee)$/;"	f
+tee_supp_init	core/tee_supp_com.c	/^int tee_supp_init(struct tee *tee)$/;"	f
+tee_supp_open	core/tee_core.c	/^static int tee_supp_open(struct tee *tee)$/;"	f	file:
+tee_supp_read	core/tee_supp_com.c	/^ssize_t tee_supp_read(struct file *filp, char __user *buffer,$/;"	f
+tee_supp_release	core/tee_core.c	/^static void tee_supp_release(struct tee *tee)$/;"	f	file:
+tee_supp_write	core/tee_supp_com.c	/^ssize_t tee_supp_write(struct file *filp, const char __user *buffer,$/;"	f
+tee_ta_inst_desc	include/linux/tee_ioc.h	/^struct tee_ta_inst_desc {$/;"	s
+tee_trace_open	core/tee_procfs.c	/^static int tee_trace_open(struct inode *inode, struct file *filp)$/;"	f	file:
+tee_trace_read	core/tee_procfs.c	/^static ssize_t tee_trace_read(struct file *file, char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+tee_trace_release	core/tee_procfs.c	/^static int tee_trace_release(struct inode *inode, struct file *file)$/;"	f	file:
+tee_trace_write	core/tee_procfs.c	/^static ssize_t tee_trace_write(struct file *filp, const char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+tee_tz	armtz/tee_tz_drv.c	/^static struct tee_tz *tee_tz;$/;"	v	typeref:struct:tee_tz	file:
+tee_tz	armtz/tee_tz_priv.h	/^struct tee_tz {$/;"	s
+tee_tz_exit	armtz/tee_tz_drv.c	/^module_exit(tee_tz_exit);$/;"	v
+tee_tz_exit	armtz/tee_tz_drv.c	/^static void __exit tee_tz_exit(void)$/;"	f	file:
+tee_tz_fops	armtz/tee_tz_drv.c	/^const struct tee_ops tee_tz_fops = {$/;"	v	typeref:struct:tee_ops
+tee_tz_init	armtz/tee_tz_drv.c	/^module_init(tee_tz_init);$/;"	v
+tee_tz_init	armtz/tee_tz_drv.c	/^rootfs_initcall(tee_tz_init);$/;"	v
+tee_tz_init	armtz/tee_tz_drv.c	/^static int __init tee_tz_init(void)$/;"	f	file:
+tee_version_major	core/tee_procfs.c	/^int tee_version_major, tee_version_minor;$/;"	v
+tee_version_minor	core/tee_procfs.c	/^int tee_version_major, tee_version_minor;$/;"	v
+tee_version_ops	core/tee_procfs.c	/^static const struct file_operations tee_version_ops = {$/;"	v	typeref:struct:file_operations	file:
+tee_version_read	core/tee_procfs.c	/^static ssize_t tee_version_read(struct file *file, char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+tee_wait_queue	core/tee_wait_queue.c	/^struct tee_wait_queue {$/;"	s	file:
+tee_wait_queue_exit	core/tee_wait_queue.c	/^EXPORT_SYMBOL(tee_wait_queue_exit);$/;"	v
+tee_wait_queue_exit	core/tee_wait_queue.c	/^void tee_wait_queue_exit(struct tee_wait_queue_private *priv)$/;"	f
+tee_wait_queue_get	core/tee_wait_queue.c	/^static struct tee_wait_queue *tee_wait_queue_get(struct device *dev,$/;"	f	file:
+tee_wait_queue_init	core/tee_wait_queue.c	/^EXPORT_SYMBOL(tee_wait_queue_init);$/;"	v
+tee_wait_queue_init	core/tee_wait_queue.c	/^void tee_wait_queue_init(struct tee_wait_queue_private *priv)$/;"	f
+tee_wait_queue_private	core/tee_wait_queue.h	/^struct tee_wait_queue_private {$/;"	s
+tee_wait_queue_sleep	core/tee_wait_queue.c	/^EXPORT_SYMBOL(tee_wait_queue_sleep);$/;"	v
+tee_wait_queue_sleep	core/tee_wait_queue.c	/^void tee_wait_queue_sleep(struct device *dev,$/;"	f
+tee_wait_queue_wakeup	core/tee_wait_queue.c	/^EXPORT_SYMBOL(tee_wait_queue_wakeup);$/;"	v
+tee_wait_queue_wakeup	core/tee_wait_queue.c	/^void tee_wait_queue_wakeup(struct device *dev,$/;"	f
+tee_wakeup_cnt	core/pm.c	/^static atomic_t tee_wakeup_cnt = ATOMIC_INIT(0);$/;"	v	file:
+tee_write_pos	core/tee_procfs.c	/^        unsigned int tee_write_pos;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+tee_write_seq	core/tee_procfs.c	/^		unsigned int tee_write_seq;$/;"	m	struct:tee_log_ctrl::__anon33	file:
+teec_notify_event	core/tee_session.c	/^EXPORT_SYMBOL(teec_notify_event);$/;"	v
+teec_notify_event	core/tee_session.c	/^bool teec_notify_event(uint32_t event_type)$/;"	f
+teec_rpc_result	core/tee_supp_com.h	/^enum teec_rpc_result {$/;"	g
+teec_wait_cmd	core/tee_session.c	/^EXPORT_SYMBOL(teec_wait_cmd);$/;"	v
+teec_wait_cmd	core/tee_session.c	/^int teec_wait_cmd(uint32_t *cmd_id)$/;"	f
+teed_version	core/tee_procfs.c	/^char teed_version[TEED_VERSION_SIZE + 1] = "unknown\\n";$/;"	v
+teed_version_ops	core/tee_procfs.c	/^static const struct file_operations teed_version_ops = {$/;"	v	typeref:struct:file_operations	file:
+teed_version_read	core/tee_procfs.c	/^static ssize_t teed_version_read(struct file *file, char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+teed_version_write	core/tee_procfs.c	/^static ssize_t teed_version_write(struct file *filp, const char __user *buf, size_t count, loff_t *pos)$/;"	f	file:
+teesmc32_arg	include/arm_common/teesmc.h	/^struct teesmc32_arg {$/;"	s
+teesmc32_param	include/arm_common/teesmc.h	/^struct teesmc32_param {$/;"	s
+teesmc32_param_memref	include/arm_common/teesmc.h	/^struct teesmc32_param_memref {$/;"	s
+teesmc32_param_value	include/arm_common/teesmc.h	/^struct teesmc32_param_value {$/;"	s
+teesmc64_arg	include/arm_common/teesmc.h	/^struct teesmc64_arg {$/;"	s
+teesmc64_param	include/arm_common/teesmc.h	/^struct teesmc64_param {$/;"	s
+teesmc64_param_memref	include/arm_common/teesmc.h	/^struct teesmc64_param_memref {$/;"	s
+teesmc64_param_value	include/arm_common/teesmc.h	/^struct teesmc64_param_value {$/;"	s
+teesmc_meta_open_session	include/arm_common/teesmc.h	/^struct teesmc_meta_open_session {$/;"	s
+test	include/linux/tee_core.h	/^	uint32_t test;$/;"	m	struct:tee
+test_cpu_locked	armtz/tee_smc_xfer.c	/^static inline bool test_cpu_locked(tee_smc_xfer_ctl_t *ctl, int cpu)$/;"	f	file:
+test_show	core/tee_sysfs.c	/^static ssize_t test_show(struct device *device,$/;"	f	file:
+test_store	core/tee_sysfs.c	/^static ssize_t test_store(struct device *device,$/;"	f	file:
+tgid	include/linux/tee_core.h	/^	int tgid;$/;"	m	struct:tee_context
+thrd_mutex	core/tee_supp_com.h	/^	struct mutex thrd_mutex; \/* Block the thread to wait for supp answer *\/$/;"	m	struct:tee_rpc	typeref:struct:tee_rpc::mutex
+thread	armtz/tee_smc_xfer.c	/^	struct task_struct *thread;$/;"	m	struct:__anon35	typeref:struct:__anon35::task_struct	file:
+thread_wq	armtz/tee_smc_xfer.c	/^	wait_queue_head_t thread_wq;$/;"	m	struct:__anon35	file:
+timeHiAndVersion	include/linux/tee_client_api.h	/^	uint16_t timeHiAndVersion;$/;"	m	struct:__anon12
+timeLow	include/linux/tee_client_api.h	/^	uint32_t timeLow;$/;"	m	struct:__anon12
+timeMid	include/linux/tee_client_api.h	/^	uint16_t timeMid;$/;"	m	struct:__anon12
+tkcore-objs	core/Makefile	/^tkcore-objs:= \\$/;"	m
+tkcore_drv-objs	armtz/Makefile	/^tkcore_drv-objs:= \\$/;"	m
+tkcore_log_irq_handler	core/tee_procfs.c	/^static irqreturn_t tkcore_log_irq_handler(int irq, void *dev_id)$/;"	f	file:
+tkcore_nsdrv_version	version.h	/^static const char tkcore_nsdrv_version[] = "3.1p5" "\\n";$/;"	v
+tkcore_procfs_tag	core/tee_procfs.c	/^const char tkcore_procfs_tag[] = "tkcore_proc";$/;"	v
+tkcore_rpmb_request	include/linux/tee_rpmb.h	/^struct tkcore_rpmb_request {$/;"	s
+tkcore_stay_awake	core/pm.c	/^int tkcore_stay_awake(awake_fn fn, void *data)$/;"	f
+tkcore_tee_pm_exit	core/pm.c	/^void tkcore_tee_pm_exit(void)$/;"	f
+tkcore_tee_pm_init	core/pm.c	/^int tkcore_tee_pm_init(void)$/;"	f
+tkcore_trace	core/tee_procfs.c	/^struct tkcore_trace {$/;"	s	file:
+tkcore_traces	core/tee_procfs.c	/^struct tkcore_trace tkcore_traces[] = {$/;"	v	typeref:struct:tkcore_trace
+tmpref	include/linux/tee_client_api.h	/^	TEEC_TempMemoryReference tmpref;$/;"	m	union:__anon25
+to_memref_type	core/tee_session.c	/^static int to_memref_type(int flags)$/;"	f	file:
+token	core/tee_clkmgr.c	/^    uint32_t token;$/;"	m	struct:__anon32	file:
+token	include/linux/tee_core.h	/^    uint32_t token;$/;"	m	struct:tee_shm_ns
+trace_buf	core/tee_procfs.c	/^char trace_buf[TRACE_BUF_SIZE + 1];$/;"	v
+trace_mutex	core/tee_procfs.c	/^static struct mutex trace_mutex;$/;"	v	typeref:struct:mutex	file:
+trace_tee_smc	armtz/tee_smc_xfer.c	/^static inline void trace_tee_smc(tee_smc_xfer_ctl_t *ctl, int rv, s64 time_start, s64 time_end)$/;"	f	file:
+trace_tee_smc_done	armtz/tee_smc_xfer.c	/^static inline void trace_tee_smc_done(tee_smc_xfer_ctl_t *ctl, s64 time_start, s64 time_end)$/;"	f	file:
+trustedui_blank_counter	core/tee_tui.c	/^static int trustedui_blank_counter;$/;"	v	file:
+trustedui_blank_dec	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_blank_dec);$/;"	v
+trustedui_blank_dec	core/tee_tui.c	/^int trustedui_blank_dec(void)$/;"	f
+trustedui_blank_get_counter	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_blank_get_counter);$/;"	v
+trustedui_blank_get_counter	core/tee_tui.c	/^int trustedui_blank_get_counter(void)$/;"	f
+trustedui_blank_inc	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_blank_inc);$/;"	v
+trustedui_blank_inc	core/tee_tui.c	/^int trustedui_blank_inc(void)$/;"	f
+trustedui_blank_set_counter	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_blank_set_counter);$/;"	v
+trustedui_blank_set_counter	core/tee_tui.c	/^void trustedui_blank_set_counter(int counter)$/;"	f
+trustedui_clear_mask	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_clear_mask);$/;"	v
+trustedui_clear_mask	core/tee_tui.c	/^int trustedui_clear_mask(int mask)$/;"	f
+trustedui_get_current_mode	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_get_current_mode);$/;"	v
+trustedui_get_current_mode	core/tee_tui.c	/^int trustedui_get_current_mode(void)$/;"	f
+trustedui_mode	core/tee_tui.c	/^static int trustedui_mode = TRUSTEDUI_MODE_OFF;$/;"	v	file:
+trustedui_set_mask	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_set_mask);$/;"	v
+trustedui_set_mask	core/tee_tui.c	/^int trustedui_set_mask(int mask)$/;"	f
+trustedui_set_mode	core/tee_tui.c	/^EXPORT_SYMBOL(trustedui_set_mode);$/;"	v
+trustedui_set_mode	core/tee_tui.c	/^void trustedui_set_mode(int mode)$/;"	f
+tui_obj	core/tee_session.c	/^struct tui_obj {$/;"	s	file:
+type	core/tee_supp_com.h	/^	uint32_t type;$/;"	m	struct:tee_rpc_cmd
+type	include/linux/tee_core.h	/^	const char *type;$/;"	m	struct:tee_ops
+type	include/linux/tee_core.h	/^	uint32_t type;$/;"	m	struct:tee_data
+type	include/linux/tee_rpmb.h	/^	uint16_t type;$/;"	m	struct:tkcore_rpmb_request
+type_original	include/linux/tee_core.h	/^	uint32_t type_original;$/;"	m	struct:tee_data
+type_show	core/tee_sysfs.c	/^static ssize_t type_show(struct device *device,$/;"	f	file:
+tz_0_plt_device	armtz/tee_tz_drv.c	/^static struct platform_device tz_0_plt_device = {$/;"	v	typeref:struct:platform_device	file:
+tz_alloc	armtz/tee_tz_drv.c	/^static struct tee_shm *tz_alloc(struct tee *tee, size_t size, uint32_t flags)$/;"	f	file:
+tz_cancel	armtz/tee_tz_drv.c	/^static int tz_cancel(struct tee_session *sess, struct tee_cmd *cmd)$/;"	f	file:
+tz_close	armtz/tee_tz_drv.c	/^static int tz_close(struct tee_session *sess)$/;"	f	file:
+tz_free	armtz/tee_tz_drv.c	/^static void tz_free(struct tee_shm *shm)$/;"	f	file:
+tz_invoke	armtz/tee_tz_drv.c	/^static int tz_invoke(struct tee_session *sess, struct tee_cmd *cmd)$/;"	f	file:
+tz_open	armtz/tee_tz_drv.c	/^static int tz_open(struct tee_session *sess, struct tee_cmd *cmd)$/;"	f	file:
+tz_outer_cache_mutex	armtz/tee_tz_priv.h	/^	void *tz_outer_cache_mutex;$/;"	m	struct:tee_tz
+tz_pm_notifier	core/pm.c	/^static struct notifier_block tz_pm_notifier = {$/;"	v	typeref:struct:notifier_block	file:
+tz_shm_inc_ref	armtz/tee_tz_drv.c	/^static int tz_shm_inc_ref(struct tee_shm *shm)$/;"	f	file:
+tz_start	armtz/tee_tz_drv.c	/^static int tz_start(struct tee *tee)$/;"	f	file:
+tz_stop	armtz/tee_tz_drv.c	/^static int tz_stop(struct tee *tee)$/;"	f	file:
+tz_tee_deinit	armtz/tee_tz_drv.c	/^static void tz_tee_deinit(struct platform_device *pdev)$/;"	f	file:
+tz_tee_driver	armtz/tee_tz_drv.c	/^static struct platform_driver tz_tee_driver = {$/;"	v	typeref:struct:platform_driver	file:
+tz_tee_init	armtz/tee_tz_drv.c	/^static int tz_tee_init(struct platform_device *pdev)$/;"	f	file:
+tz_tee_match	armtz/tee_tz_drv.c	/^static struct of_device_id tz_tee_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+tz_tee_probe	armtz/tee_tz_drv.c	/^static int tz_tee_probe(struct platform_device *pdev)$/;"	f	file:
+tz_tee_remove	armtz/tee_tz_drv.c	/^static int tz_tee_remove(struct platform_device *pdev)$/;"	f	file:
+u	include/arm_common/teesmc.h	/^	} u;$/;"	m	struct:teesmc32_param	typeref:union:teesmc32_param::__anon1
+u	include/arm_common/teesmc.h	/^	} u;$/;"	m	struct:teesmc64_param	typeref:union:teesmc64_param::__anon2
+unlock_cpu	armtz/tee_smc_xfer.c	/^static inline void unlock_cpu(tee_smc_xfer_ctl_t *ctl, int cpu)$/;"	f	file:
+used	armtz/tee_mem.c	/^	size_t used;		\/* Number of bytes allocated *\/$/;"	m	struct:shm_pool	file:
+used	core/tee_supp_com.h	/^	atomic_t  used;$/;"	m	struct:tee_rpc
+user_log_wqh	core/tee_procfs.c	/^DECLARE_WAIT_QUEUE_HEAD(user_log_wqh);$/;"	v
+usr_client	include/linux/tee_core.h	/^	int usr_client;$/;"	m	struct:tee_context
+uuid	armtz/tee_tz_op.h	/^	TEEC_UUID uuid;$/;"	m	struct:tee_identity
+uuid	armtz/tee_tz_op.h	/^	TEEC_UUID uuid;$/;"	m	struct:tee_open_session_data
+uuid	include/arm_common/teesmc.h	/^	uint8_t uuid[TEESMC_UUID_LEN];$/;"	m	struct:teesmc_meta_open_session
+uuid	include/linux/tee_core.h	/^	struct tee_shm *uuid;$/;"	m	struct:tee_cmd	typeref:struct:tee_cmd::tee_shm
+uuid	include/linux/tee_ioc.h	/^		TEEC_UUID __user *uuid;$/;"	m	union:tee_cmd_io::__anon3
+uuid	include/linux/tee_ioc.h	/^        TEEC_UUID __user *uuid;$/;"	m	union:tee_ta_inst_desc::__anon7
+vaddr	armtz/tee_mem.c	/^	void *vaddr;		\/* Associated Virtual address *\/$/;"	m	struct:shm_pool	file:
+value	include/arm_common/teesmc.h	/^		struct teesmc32_param_value value;$/;"	m	union:teesmc32_param::__anon1	typeref:struct:teesmc32_param::__anon1::teesmc32_param_value
+value	include/arm_common/teesmc.h	/^		struct teesmc64_param_value value;$/;"	m	union:teesmc64_param::__anon2	typeref:struct:teesmc64_param::__anon2::teesmc64_param_value
+value	include/linux/tee_client_api.h	/^	TEEC_Value value;$/;"	m	union:__anon25
+value	include/linux/tee_core.h	/^		TEEC_Value value;$/;"	m	union:tee_data::__anon30
+wait_after	core/tee_mutex_wait.c	/^	u32 wait_after;$/;"	m	struct:tee_mutex_wait	file:
+wait_dequeue_cmd	armtz/tee_smc_xfer.c	/^static smc_xfer_cmd_t *wait_dequeue_cmd(tee_smc_xfer_ctl_t *ctl, int cpu)$/;"	f	file:
+wait_queue	armtz/tee_tz_priv.h	/^	struct tee_wait_queue_private wait_queue;$/;"	m	struct:tee_tz	typeref:struct:tee_tz::tee_wait_queue_private
+xfer_dequeue_waiters	armtz/tee_smc_xfer.c	/^static void xfer_dequeue_waiters(tee_smc_xfer_ctl_t *ctl)$/;"	f	file:
+xfer_enqueue_waiters	armtz/tee_smc_xfer.c	/^static void xfer_enqueue_waiters(tee_smc_xfer_ctl_t *ctl)$/;"	f	file:
+xfer_lock	armtz/tee_smc_xfer.c	/^	struct mutex xfer_lock;$/;"	m	struct:__anon36	typeref:struct:__anon36::mutex	file:
+xfer_preempt	armtz/tee_smc_xfer.c	/^void xfer_preempt(tee_smc_xfer_ctl_t *ctl)$/;"	f
+xfer_preempt_b	armtz/tee_smc_xfer.c	/^static smc_xfer_cmd_t *xfer_preempt_b(tee_smc_xfer_ctl_t *ctl, smc_xfer_cmd_t *cmd)$/;"	f	file:
+xfer_preempt_l	armtz/tee_smc_xfer.c	/^static bool xfer_preempt_l(tee_smc_xfer_ctl_t *ctl, smc_xfer_cmd_t *cmd)$/;"	f	file:
+xfer_thread_pause	armtz/tee_smc_xfer.c	/^void xfer_thread_pause(tee_smc_xfer_ctl_t *ctl, int cpu)$/;"	f
+xfer_thread_resume	armtz/tee_smc_xfer.c	/^void xfer_thread_resume(tee_smc_xfer_ctl_t *ctl, int cpu)$/;"	f
+xfer_thread_running	armtz/tee_smc_xfer.c	/^	bool xfer_thread_running;$/;"	m	struct:__anon36	file:
+xfer_threads	armtz/tee_smc_xfer.c	/^	smc_xfer_thread_t *xfer_threads;$/;"	m	struct:__anon36	file:
+xfer_threads_count	armtz/tee_smc_xfer.c	/^	int xfer_threads_count;$/;"	m	struct:__anon36	file:
+xfer_wait_queue	armtz/tee_smc_xfer.c	/^	struct semaphore xfer_wait_queue;$/;"	m	struct:__anon36	typeref:struct:__anon36::semaphore	file:
+xstr	core/tee_procfs.c	47;"	d	file:
